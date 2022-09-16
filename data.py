@@ -31,6 +31,8 @@ def get_all_pokemon_name_and_type():
                 if pokedex[index+1]["Type"] != "":
                     all_pokemon_names_and_type[i].append(pokedex[index + 1]["Type"])
                     index += 1
+                else:
+                    index += 1
             index += 1
         return all_pokemon_names_and_type
             

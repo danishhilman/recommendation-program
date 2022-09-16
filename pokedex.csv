@@ -20,3 +20,1688 @@ Wartortle008,Wartortle,WATER,405,59,63,80,65,80,58
 Blastoise009,Blastoise,WATER,530,79,83,100,85,105,78
 Mega Blastoise009,Blastoise,WATER,630,79,103,120,135,115,78
 ,Mega Blastoise,,,,,,,,
+Caterpie010,Caterpie,BUG,195,45,30,35,20,20,45
+Metapod011,Metapod,BUG,205,50,20,55,25,25,30
+Butterfree012,Butterfree,BUG,395,60,45,50,90,80,70
+,,FLYING,,,,,,,
+Weedle013,Weedle,BUG,195,40,35,30,20,20,50
+,,POISON,,,,,,,
+Kakuna014,Kakuna,BUG,205,45,25,50,25,25,35
+,,POISON,,,,,,,
+Beedrill015,Beedrill,BUG,395,65,90,40,45,80,75
+,,POISON,,,,,,,
+Mega Beedrill015,Beedrill,BUG,495,65,150,40,15,80,145
+,Mega Beedrill,POISON,,,,,,,
+Pidgey016,Pidgey,NORMAL,251,40,45,40,35,35,56
+,,FLYING,,,,,,,
+Pidgeotto017,Pidgeotto,NORMAL,349,63,60,55,50,50,71
+,,FLYING,,,,,,,
+Pidgeot018,Pidgeot,NORMAL,479,83,80,75,70,70,101
+,,FLYING,,,,,,,
+Mega Pidgeot018,Pidgeot,NORMAL,579,83,80,80,135,80,121
+,Mega Pidgeot,FLYING,,,,,,,
+Rattata019,Rattata,NORMAL,253,30,56,35,25,35,72
+Alolan Rattata019,Rattata,DARK,253,30,56,35,25,35,72
+,Alolan Rattata,NORMAL,,,,,,,
+Raticate020,Raticate,NORMAL,413,55,81,60,50,70,97
+Alolan Raticate020,Raticate,DARK,413,75,71,70,40,80,77
+,Alolan Raticate,NORMAL,,,,,,,
+Spearow021,Spearow,NORMAL,262,40,60,30,31,31,70
+,,FLYING,,,,,,,
+Fearow022,Fearow,NORMAL,442,65,90,65,61,61,100
+,,FLYING,,,,,,,
+Ekans023,Ekans,POISON,288,35,60,44,40,54,55
+Arbok024,Arbok,POISON,448,60,95,69,65,79,80
+Pikachu025,Pikachu,ELECTRIC,320,35,55,40,50,50,90
+Pikachu (Partner Pikachu)025,Pikachu,ELECTRIC,430,45,80,50,75,60,120
+,Partner Pikachu,,,,,,,,
+Raichu026,Raichu,ELECTRIC,485,60,90,55,90,80,110
+Alolan Raichu026,Raichu,ELECTRIC,485,60,85,50,95,85,110
+,Alolan Raichu,PSYCHIC,,,,,,,
+Sandshrew027,Sandshrew,GROUND,300,50,75,85,20,30,40
+Alolan Sandshrew027,Sandshrew,ICE,300,50,75,90,10,35,40
+,Alolan Sandshrew,STEEL,,,,,,,
+Sandslash028,Sandslash,GROUND,450,75,100,110,45,55,65
+Alolan Sandslash028,Sandslash,ICE,450,75,100,120,25,65,65
+,Alolan Sandslash,STEEL,,,,,,,
+Nidoran♀029,Nidoran♀,POISON,275,55,47,52,40,40,41
+Nidorina030,Nidorina,POISON,365,70,62,67,55,55,56
+Nidoqueen031,Nidoqueen,POISON,505,90,92,87,75,85,76
+,,GROUND,,,,,,,
+Nidoran♂032,Nidoran♂,POISON,273,46,57,40,40,40,50
+Nidorino033,Nidorino,POISON,365,61,72,57,55,55,65
+Nidoking034,Nidoking,POISON,505,81,102,77,85,75,85
+,,GROUND,,,,,,,
+Clefairy035,Clefairy,FAIRY,323,70,45,48,60,65,35
+Clefable036,Clefable,FAIRY,483,95,70,73,95,90,60
+Vulpix037,Vulpix,FIRE,299,38,41,40,50,65,65
+Alolan Vulpix037,Vulpix,ICE,299,38,41,40,50,65,65
+,Alolan Vulpix,,,,,,,,
+Ninetales038,Ninetales,FIRE,505,73,76,75,81,100,100
+Alolan Ninetales038,Ninetales,ICE,505,73,67,75,81,100,109
+,Alolan Ninetales,FAIRY,,,,,,,
+Jigglypuff039,Jigglypuff,NORMAL,270,115,45,20,45,25,20
+,,FAIRY,,,,,,,
+Wigglytuff040,Wigglytuff,NORMAL,435,140,70,45,85,50,45
+,,FAIRY,,,,,,,
+Zubat041,Zubat,POISON,245,40,45,35,30,40,55
+,,FLYING,,,,,,,
+Golbat042,Golbat,POISON,455,75,80,70,65,75,90
+,,FLYING,,,,,,,
+Oddish043,Oddish,GRASS,320,45,50,55,75,65,30
+,,POISON,,,,,,,
+Gloom044,Gloom,GRASS,395,60,65,70,85,75,40
+,,POISON,,,,,,,
+Vileplume045,Vileplume,GRASS,490,75,80,85,110,90,50
+,,POISON,,,,,,,
+Paras046,Paras,BUG,285,35,70,55,45,55,25
+,,GRASS,,,,,,,
+Parasect047,Parasect,BUG,405,60,95,80,60,80,30
+,,GRASS,,,,,,,
+Venonat048,Venonat,BUG,305,60,55,50,40,55,45
+,,POISON,,,,,,,
+Venomoth049,Venomoth,BUG,450,70,65,60,90,75,90
+,,POISON,,,,,,,
+Diglett050,Diglett,GROUND,265,10,55,25,35,45,95
+Alolan Diglett050,Diglett,GROUND,265,10,55,30,35,45,90
+,Alolan Diglett,STEEL,,,,,,,
+Dugtrio051,Dugtrio,GROUND,425,35,100,50,50,70,120
+Alolan Dugtrio051,Dugtrio,GROUND,425,35,100,60,50,70,110
+,Alolan Dugtrio,STEEL,,,,,,,
+Meowth052,Meowth,NORMAL,290,40,45,35,40,40,90
+Alolan Meowth052,Meowth,DARK,290,40,35,35,50,40,90
+,Alolan Meowth,,,,,,,,
+Galarian Meowth052,Meowth,STEEL,290,50,65,55,40,40,40
+,Galarian Meowth,,,,,,,,
+Persian053,Persian,NORMAL,440,65,70,60,65,65,115
+Alolan Persian053,Persian,DARK,440,65,60,60,75,65,115
+,Alolan Persian,,,,,,,,
+Psyduck054,Psyduck,WATER,320,50,52,48,65,50,55
+Golduck055,Golduck,WATER,500,80,82,78,95,80,85
+Mankey056,Mankey,FIGHTING,305,40,80,35,35,45,70
+Primeape057,Primeape,FIGHTING,455,65,105,60,60,70,95
+Growlithe058,Growlithe,FIRE,350,55,70,45,70,50,60
+Growlithe (Hisuian Growlithe)058,Growlithe,FIRE,350,60,75,45,65,50,55
+,Hisuian Growlithe,ROCK,,,,,,,
+Arcanine059,Arcanine,FIRE,555,90,110,80,100,80,95
+Arcanine (Hisuian Arcanine)059,Arcanine,FIRE,555,95,115,80,95,80,90
+,Hisuian Arcanine,ROCK,,,,,,,
+Poliwag060,Poliwag,WATER,300,40,50,40,40,40,90
+Poliwhirl061,Poliwhirl,WATER,385,65,65,65,50,50,90
+Poliwrath062,Poliwrath,WATER,510,90,95,95,70,90,70
+,,FIGHTING,,,,,,,
+Abra063,Abra,PSYCHIC,310,25,20,15,105,55,90
+Kadabra064,Kadabra,PSYCHIC,400,40,35,30,120,70,105
+Alakazam065,Alakazam,PSYCHIC,500,55,50,45,135,95,120
+Mega Alakazam065,Alakazam,PSYCHIC,600,55,50,65,175,105,150
+,Mega Alakazam,,,,,,,,
+Machop066,Machop,FIGHTING,305,70,80,50,35,35,35
+Machoke067,Machoke,FIGHTING,405,80,100,70,50,60,45
+Machamp068,Machamp,FIGHTING,505,90,130,80,65,85,55
+Bellsprout069,Bellsprout,GRASS,300,50,75,35,70,30,40
+,,POISON,,,,,,,
+Weepinbell070,Weepinbell,GRASS,390,65,90,50,85,45,55
+,,POISON,,,,,,,
+Victreebel071,Victreebel,GRASS,490,80,105,65,100,70,70
+,,POISON,,,,,,,
+Tentacool072,Tentacool,WATER,335,40,40,35,50,100,70
+,,POISON,,,,,,,
+Tentacruel073,Tentacruel,WATER,515,80,70,65,80,120,100
+,,POISON,,,,,,,
+Geodude074,Geodude,ROCK,300,40,80,100,30,30,20
+,,GROUND,,,,,,,
+Alolan Geodude074,Geodude,ROCK,300,40,80,100,30,30,20
+,Alolan Geodude,ELECTRIC,,,,,,,
+Graveler075,Graveler,ROCK,390,55,95,115,45,45,35
+,,GROUND,,,,,,,
+Alolan Graveler075,Graveler,ROCK,390,55,95,115,45,45,35
+,Alolan Graveler,ELECTRIC,,,,,,,
+Golem076,Golem,ROCK,495,80,120,130,55,65,45
+,,GROUND,,,,,,,
+Alolan Golem076,Golem,ROCK,495,80,120,130,55,65,45
+,Alolan Golem,ELECTRIC,,,,,,,
+Ponyta077,Ponyta,FIRE,410,50,85,55,65,65,90
+Galarian Ponyta077,Ponyta,PSYCHIC,410,50,85,55,65,65,90
+,Galarian Ponyta,,,,,,,,
+Rapidash078,Rapidash,FIRE,500,65,100,70,80,80,105
+Galarian Rapidash078,Rapidash,PSYCHIC,500,65,100,70,80,80,105
+,Galarian Rapidash,FAIRY,,,,,,,
+Slowpoke079,Slowpoke,WATER,315,90,65,65,40,40,15
+,,PSYCHIC,,,,,,,
+Galarian Slowpoke079,Slowpoke,PSYCHIC,315,90,65,65,40,40,15
+,Galarian Slowpoke,,,,,,,,
+Slowbro080,Slowbro,WATER,490,95,75,110,100,80,30
+,,PSYCHIC,,,,,,,
+Mega Slowbro080,Slowbro,WATER,590,95,75,180,130,80,30
+,Mega Slowbro,PSYCHIC,,,,,,,
+Galarian Slowbro080,Slowbro,POISON,490,95,100,95,100,70,30
+,Galarian Slowbro,PSYCHIC,,,,,,,
+Magnemite081,Magnemite,ELECTRIC,325,25,35,70,95,55,45
+,,STEEL,,,,,,,
+Magneton082,Magneton,ELECTRIC,465,50,60,95,120,70,70
+,,STEEL,,,,,,,
+Farfetch'd083,Farfetch'd,NORMAL,377,52,90,55,58,62,60
+,,FLYING,,,,,,,
+Galarian Farfetch'd083,Farfetch'd,FIGHTING,377,52,95,55,58,62,55
+,Galarian Farfetch'd,,,,,,,,
+Doduo084,Doduo,NORMAL,310,35,85,45,35,35,75
+,,FLYING,,,,,,,
+Dodrio085,Dodrio,NORMAL,470,60,110,70,60,60,110
+,,FLYING,,,,,,,
+Seel086,Seel,WATER,325,65,45,55,45,70,45
+Dewgong087,Dewgong,WATER,475,90,70,80,70,95,70
+,,ICE,,,,,,,
+Grimer088,Grimer,POISON,325,80,80,50,40,50,25
+Alolan Grimer088,Grimer,POISON,325,80,80,50,40,50,25
+,Alolan Grimer,DARK,,,,,,,
+Muk089,Muk,POISON,500,105,105,75,65,100,50
+Alolan Muk089,Muk,POISON,500,105,105,75,65,100,50
+,Alolan Muk,DARK,,,,,,,
+Shellder090,Shellder,WATER,305,30,65,100,45,25,40
+Cloyster091,Cloyster,WATER,525,50,95,180,85,45,70
+,,ICE,,,,,,,
+Gastly092,Gastly,GHOST,310,30,35,30,100,35,80
+,,POISON,,,,,,,
+Haunter093,Haunter,GHOST,405,45,50,45,115,55,95
+,,POISON,,,,,,,
+Gengar094,Gengar,GHOST,500,60,65,60,130,75,110
+,,POISON,,,,,,,
+Mega Gengar094,Gengar,GHOST,600,60,65,80,170,95,130
+,Mega Gengar,POISON,,,,,,,
+Onix095,Onix,ROCK,385,35,45,160,30,45,70
+,,GROUND,,,,,,,
+Drowzee096,Drowzee,PSYCHIC,328,60,48,45,43,90,42
+Hypno097,Hypno,PSYCHIC,483,85,73,70,73,115,67
+Krabby098,Krabby,WATER,325,30,105,90,25,25,50
+Kingler099,Kingler,WATER,475,55,130,115,50,50,75
+Voltorb100,Voltorb,ELECTRIC,330,40,30,50,55,55,100
+Voltorb (Hisuian Voltorb)100,Voltorb,ELECTRIC,330,40,30,50,55,55,100
+,Hisuian Voltorb,GRASS,,,,,,,
+Electrode101,Electrode,ELECTRIC,490,60,50,70,80,80,150
+Electrode (Hisuian Electrode)101,Electrode,ELECTRIC,490,60,50,70,80,80,150
+,Hisuian Electrode,GRASS,,,,,,,
+Exeggcute102,Exeggcute,GRASS,325,60,40,80,60,45,40
+,,PSYCHIC,,,,,,,
+Exeggutor103,Exeggutor,GRASS,530,95,95,85,125,75,55
+,,PSYCHIC,,,,,,,
+Alolan Exeggutor103,Exeggutor,GRASS,530,95,105,85,125,75,45
+,Alolan Exeggutor,DRAGON,,,,,,,
+Cubone104,Cubone,GROUND,320,50,50,95,40,50,35
+Marowak105,Marowak,GROUND,425,60,80,110,50,80,45
+Alolan Marowak105,Marowak,FIRE,425,60,80,110,50,80,45
+,Alolan Marowak,GHOST,,,,,,,
+Hitmonlee106,Hitmonlee,FIGHTING,455,50,120,53,35,110,87
+Hitmonchan107,Hitmonchan,FIGHTING,455,50,105,79,35,110,76
+Lickitung108,Lickitung,NORMAL,385,90,55,75,60,75,30
+Koffing109,Koffing,POISON,340,40,65,95,60,45,35
+Weezing110,Weezing,POISON,490,65,90,120,85,70,60
+Galarian Weezing110,Weezing,POISON,490,65,90,120,85,70,60
+,Galarian Weezing,FAIRY,,,,,,,
+Rhyhorn111,Rhyhorn,GROUND,345,80,85,95,30,30,25
+,,ROCK,,,,,,,
+Rhydon112,Rhydon,GROUND,485,105,130,120,45,45,40
+,,ROCK,,,,,,,
+Chansey113,Chansey,NORMAL,450,250,5,5,35,105,50
+Tangela114,Tangela,GRASS,435,65,55,115,100,40,60
+Kangaskhan115,Kangaskhan,NORMAL,490,105,95,80,40,80,90
+Mega Kangaskhan115,Kangaskhan,NORMAL,590,105,125,100,60,100,100
+,Mega Kangaskhan,,,,,,,,
+Horsea116,Horsea,WATER,295,30,40,70,70,25,60
+Seadra117,Seadra,WATER,440,55,65,95,95,45,85
+Goldeen118,Goldeen,WATER,320,45,67,60,35,50,63
+Seaking119,Seaking,WATER,450,80,92,65,65,80,68
+Staryu120,Staryu,WATER,340,30,45,55,70,55,85
+Starmie121,Starmie,WATER,520,60,75,85,100,85,115
+,,PSYCHIC,,,,,,,
+Mr. Mime122,Mr. Mime,PSYCHIC,460,40,45,65,100,120,90
+,,FAIRY,,,,,,,
+Galarian Mr. Mime122,Mr. Mime,ICE,460,50,65,65,90,90,100
+,Galarian Mr. Mime,PSYCHIC,,,,,,,
+Scyther123,Scyther,BUG,500,70,110,80,55,80,105
+,,FLYING,,,,,,,
+Jynx124,Jynx,ICE,455,65,50,35,115,95,95
+,,PSYCHIC,,,,,,,
+Electabuzz125,Electabuzz,ELECTRIC,490,65,83,57,95,85,105
+Magmar126,Magmar,FIRE,495,65,95,57,100,85,93
+Pinsir127,Pinsir,BUG,500,65,125,100,55,70,85
+Mega Pinsir127,Pinsir,BUG,600,65,155,120,65,90,105
+,Mega Pinsir,FLYING,,,,,,,
+Tauros128,Tauros,NORMAL,490,75,100,95,40,70,110
+Magikarp129,Magikarp,WATER,200,20,10,55,15,20,80
+Gyarados130,Gyarados,WATER,540,95,125,79,60,100,81
+,,FLYING,,,,,,,
+Mega Gyarados130,Gyarados,WATER,640,95,155,109,70,130,81
+,Mega Gyarados,DARK,,,,,,,
+Lapras131,Lapras,WATER,535,130,85,80,85,95,60
+,,ICE,,,,,,,
+Ditto132,Ditto,NORMAL,288,48,48,48,48,48,48
+Eevee133,Eevee,NORMAL,325,55,55,50,45,65,55
+Eevee (Partner Eevee)133,Eevee,NORMAL,435,65,75,70,65,85,75
+,Partner Eevee,,,,,,,,
+Vaporeon134,Vaporeon,WATER,525,130,65,60,110,95,65
+Jolteon135,Jolteon,ELECTRIC,525,65,65,60,110,95,130
+Flareon136,Flareon,FIRE,525,65,130,60,95,110,65
+Porygon137,Porygon,NORMAL,395,65,60,70,85,75,40
+Omanyte138,Omanyte,ROCK,355,35,40,100,90,55,35
+,,WATER,,,,,,,
+Omastar139,Omastar,ROCK,495,70,60,125,115,70,55
+,,WATER,,,,,,,
+Kabuto140,Kabuto,ROCK,355,30,80,90,55,45,55
+,,WATER,,,,,,,
+Kabutops141,Kabutops,ROCK,495,60,115,105,65,70,80
+,,WATER,,,,,,,
+Aerodactyl142,Aerodactyl,ROCK,515,80,105,65,60,75,130
+,,FLYING,,,,,,,
+Mega Aerodactyl142,Aerodactyl,ROCK,615,80,135,85,70,95,150
+,Mega Aerodactyl,FLYING,,,,,,,
+Snorlax143,Snorlax,NORMAL,540,160,110,65,65,110,30
+Articuno144,Articuno,ICE,580,90,85,100,95,125,85
+,,FLYING,,,,,,,
+Galarian Articuno144,Articuno,PSYCHIC,580,90,85,85,125,100,95
+,Galarian Articuno,FLYING,,,,,,,
+Zapdos145,Zapdos,ELECTRIC,580,90,90,85,125,90,100
+,,FLYING,,,,,,,
+Galarian Zapdos145,Zapdos,FIGHTING,580,90,125,90,85,90,100
+,Galarian Zapdos,FLYING,,,,,,,
+Moltres146,Moltres,FIRE,580,90,100,90,125,85,90
+,,FLYING,,,,,,,
+Galarian Moltres146,Moltres,DARK,580,90,85,90,100,125,90
+,Galarian Moltres,FLYING,,,,,,,
+Dratini147,Dratini,DRAGON,300,41,64,45,50,50,50
+Dragonair148,Dragonair,DRAGON,420,61,84,65,70,70,70
+Dragonite149,Dragonite,DRAGON,600,91,134,95,100,100,80
+,,FLYING,,,,,,,
+Mewtwo150,Mewtwo,PSYCHIC,680,106,110,90,154,90,130
+Mega Mewtwo X150,Mewtwo,PSYCHIC,780,106,190,100,154,100,130
+,Mega Mewtwo X,FIGHTING,,,,,,,
+Mega Mewtwo Y150,Mewtwo,PSYCHIC,780,106,150,70,194,120,140
+,Mega Mewtwo Y,,,,,,,,
+Mew151,Mew,PSYCHIC,600,100,100,100,100,100,100
+Chikorita152,Chikorita,GRASS,318,45,49,65,49,65,45
+Bayleef153,Bayleef,GRASS,405,60,62,80,63,80,60
+Meganium154,Meganium,GRASS,525,80,82,100,83,100,80
+Cyndaquil155,Cyndaquil,FIRE,309,39,52,43,60,50,65
+Quilava156,Quilava,FIRE,405,58,64,58,80,65,80
+Typhlosion157,Typhlosion,FIRE,534,78,84,78,109,85,100
+Typhlosion (Hisuian Typhlosion)157,Typhlosion,FIRE,534,73,84,78,119,85,95
+,Hisuian Typhlosion,GHOST,,,,,,,
+Totodile158,Totodile,WATER,314,50,65,64,44,48,43
+Croconaw159,Croconaw,WATER,405,65,80,80,59,63,58
+Feraligatr160,Feraligatr,WATER,530,85,105,100,79,83,78
+Sentret161,Sentret,NORMAL,215,35,46,34,35,45,20
+Furret162,Furret,NORMAL,415,85,76,64,45,55,90
+Hoothoot163,Hoothoot,NORMAL,262,60,30,30,36,56,50
+,,FLYING,,,,,,,
+Noctowl164,Noctowl,NORMAL,452,100,50,50,86,96,70
+,,FLYING,,,,,,,
+Ledyba165,Ledyba,BUG,265,40,20,30,40,80,55
+,,FLYING,,,,,,,
+Ledian166,Ledian,BUG,390,55,35,50,55,110,85
+,,FLYING,,,,,,,
+Spinarak167,Spinarak,BUG,250,40,60,40,40,40,30
+,,POISON,,,,,,,
+Ariados168,Ariados,BUG,400,70,90,70,60,70,40
+,,POISON,,,,,,,
+Crobat169,Crobat,POISON,535,85,90,80,70,80,130
+,,FLYING,,,,,,,
+Chinchou170,Chinchou,WATER,330,75,38,38,56,56,67
+,,ELECTRIC,,,,,,,
+Lanturn171,Lanturn,WATER,460,125,58,58,76,76,67
+,,ELECTRIC,,,,,,,
+Pichu172,Pichu,ELECTRIC,205,20,40,15,35,35,60
+Cleffa173,Cleffa,FAIRY,218,50,25,28,45,55,15
+Igglybuff174,Igglybuff,NORMAL,210,90,30,15,40,20,15
+,,FAIRY,,,,,,,
+Togepi175,Togepi,FAIRY,245,35,20,65,40,65,20
+Togetic176,Togetic,FAIRY,405,55,40,85,80,105,40
+,,FLYING,,,,,,,
+Natu177,Natu,PSYCHIC,320,40,50,45,70,45,70
+,,FLYING,,,,,,,
+Xatu178,Xatu,PSYCHIC,470,65,75,70,95,70,95
+,,FLYING,,,,,,,
+Mareep179,Mareep,ELECTRIC,280,55,40,40,65,45,35
+Flaaffy180,Flaaffy,ELECTRIC,365,70,55,55,80,60,45
+Ampharos181,Ampharos,ELECTRIC,510,90,75,85,115,90,55
+Mega Ampharos181,Ampharos,ELECTRIC,610,90,95,105,165,110,45
+,Mega Ampharos,DRAGON,,,,,,,
+Bellossom182,Bellossom,GRASS,490,75,80,95,90,100,50
+Marill183,Marill,WATER,250,70,20,50,20,50,40
+,,FAIRY,,,,,,,
+Azumarill184,Azumarill,WATER,420,100,50,80,60,80,50
+,,FAIRY,,,,,,,
+Sudowoodo185,Sudowoodo,ROCK,410,70,100,115,30,65,30
+Politoed186,Politoed,WATER,500,90,75,75,90,100,70
+Hoppip187,Hoppip,GRASS,250,35,35,40,35,55,50
+,,FLYING,,,,,,,
+Skiploom188,Skiploom,GRASS,340,55,45,50,45,65,80
+,,FLYING,,,,,,,
+Jumpluff189,Jumpluff,GRASS,460,75,55,70,55,95,110
+,,FLYING,,,,,,,
+Aipom190,Aipom,NORMAL,360,55,70,55,40,55,85
+Sunkern191,Sunkern,GRASS,180,30,30,30,30,30,30
+Sunflora192,Sunflora,GRASS,425,75,75,55,105,85,30
+Yanma193,Yanma,BUG,390,65,65,45,75,45,95
+,,FLYING,,,,,,,
+Wooper194,Wooper,WATER,210,55,45,45,25,25,15
+,,GROUND,,,,,,,
+Quagsire195,Quagsire,WATER,430,95,85,85,65,65,35
+,,GROUND,,,,,,,
+Espeon196,Espeon,PSYCHIC,525,65,65,60,130,95,110
+Umbreon197,Umbreon,DARK,525,95,65,110,60,130,65
+Murkrow198,Murkrow,DARK,405,60,85,42,85,42,91
+,,FLYING,,,,,,,
+Slowking199,Slowking,WATER,490,95,75,80,100,110,30
+,,PSYCHIC,,,,,,,
+Galarian Slowking199,Slowking,POISON,490,95,65,80,110,110,30
+,Galarian Slowking,PSYCHIC,,,,,,,
+Misdreavus200,Misdreavus,GHOST,435,60,60,60,85,85,85
+Unown201,Unown,PSYCHIC,336,48,72,48,72,48,48
+Wobbuffet202,Wobbuffet,PSYCHIC,405,190,33,58,33,58,33
+Girafarig203,Girafarig,NORMAL,455,70,80,65,90,65,85
+,,PSYCHIC,,,,,,,
+Pineco204,Pineco,BUG,290,50,65,90,35,35,15
+Forretress205,Forretress,BUG,465,75,90,140,60,60,40
+,,STEEL,,,,,,,
+Dunsparce206,Dunsparce,NORMAL,415,100,70,70,65,65,45
+Gligar207,Gligar,GROUND,430,65,75,105,35,65,85
+,,FLYING,,,,,,,
+Steelix208,Steelix,STEEL,510,75,85,200,55,65,30
+,,GROUND,,,,,,,
+Mega Steelix208,Steelix,STEEL,610,75,125,230,55,95,30
+,Mega Steelix,GROUND,,,,,,,
+Snubbull209,Snubbull,FAIRY,300,60,80,50,40,40,30
+Granbull210,Granbull,FAIRY,450,90,120,75,60,60,45
+Qwilfish211,Qwilfish,WATER,440,65,95,85,55,55,85
+,,POISON,,,,,,,
+Qwilfish (Hisuian Qwilfish)211,Qwilfish,DARK,440,65,95,85,55,55,85
+,Hisuian Qwilfish,POISON,,,,,,,
+Scizor212,Scizor,BUG,500,70,130,100,55,80,65
+,,STEEL,,,,,,,
+Mega Scizor212,Scizor,BUG,600,70,150,140,65,100,75
+,Mega Scizor,STEEL,,,,,,,
+Shuckle213,Shuckle,BUG,505,20,10,230,10,230,5
+,,ROCK,,,,,,,
+Heracross214,Heracross,BUG,500,80,125,75,40,95,85
+,,FIGHTING,,,,,,,
+Mega Heracross214,Heracross,BUG,600,80,185,115,40,105,75
+,Mega Heracross,FIGHTING,,,,,,,
+Sneasel215,Sneasel,DARK,430,55,95,55,35,75,115
+,,ICE,,,,,,,
+Sneasel (Hisuian Sneasel)215,Sneasel,POISON,430,55,95,55,35,75,115
+,Hisuian Sneasel,FIGHTING,,,,,,,
+Teddiursa216,Teddiursa,NORMAL,330,60,80,50,50,50,40
+Ursaring217,Ursaring,NORMAL,500,90,130,75,75,75,55
+Slugma218,Slugma,FIRE,250,40,40,40,70,40,20
+Magcargo219,Magcargo,FIRE,430,60,50,120,90,80,30
+,,ROCK,,,,,,,
+Swinub220,Swinub,ICE,250,50,50,40,30,30,50
+,,GROUND,,,,,,,
+Piloswine221,Piloswine,ICE,450,100,100,80,60,60,50
+,,GROUND,,,,,,,
+Corsola222,Corsola,WATER,410,65,55,95,65,95,35
+,,ROCK,,,,,,,
+Galarian Corsola222,Corsola,GHOST,410,60,55,100,65,100,30
+,Galarian Corsola,,,,,,,,
+Remoraid223,Remoraid,WATER,300,35,65,35,65,35,65
+Octillery224,Octillery,WATER,480,75,105,75,105,75,45
+Delibird225,Delibird,ICE,330,45,55,45,65,45,75
+,,FLYING,,,,,,,
+Mantine226,Mantine,WATER,485,85,40,70,80,140,70
+,,FLYING,,,,,,,
+Skarmory227,Skarmory,STEEL,465,65,80,140,40,70,70
+,,FLYING,,,,,,,
+Houndour228,Houndour,DARK,330,45,60,30,80,50,65
+,,FIRE,,,,,,,
+Houndoom229,Houndoom,DARK,500,75,90,50,110,80,95
+,,FIRE,,,,,,,
+Mega Houndoom229,Houndoom,DARK,600,75,90,90,140,90,115
+,Mega Houndoom,FIRE,,,,,,,
+Kingdra230,Kingdra,WATER,540,75,95,95,95,95,85
+,,DRAGON,,,,,,,
+Phanpy231,Phanpy,GROUND,330,90,60,60,40,40,40
+Donphan232,Donphan,GROUND,500,90,120,120,60,60,50
+Porygon2233,Porygon2,NORMAL,515,85,80,90,105,95,60
+Stantler234,Stantler,NORMAL,465,73,95,62,85,65,85
+Smeargle235,Smeargle,NORMAL,250,55,20,35,20,45,75
+Tyrogue236,Tyrogue,FIGHTING,210,35,35,35,35,35,35
+Hitmontop237,Hitmontop,FIGHTING,455,50,95,95,35,110,70
+Smoochum238,Smoochum,ICE,305,45,30,15,85,65,65
+,,PSYCHIC,,,,,,,
+Elekid239,Elekid,ELECTRIC,360,45,63,37,65,55,95
+Magby240,Magby,FIRE,365,45,75,37,70,55,83
+Miltank241,Miltank,NORMAL,490,95,80,105,40,70,100
+Blissey242,Blissey,NORMAL,540,255,10,10,75,135,55
+Raikou243,Raikou,ELECTRIC,580,90,85,75,115,100,115
+Entei244,Entei,FIRE,580,115,115,85,90,75,100
+Suicune245,Suicune,WATER,580,100,75,115,90,115,85
+Larvitar246,Larvitar,ROCK,300,50,64,50,45,50,41
+,,GROUND,,,,,,,
+Pupitar247,Pupitar,ROCK,410,70,84,70,65,70,51
+,,GROUND,,,,,,,
+Tyranitar248,Tyranitar,ROCK,600,100,134,110,95,100,61
+,,DARK,,,,,,,
+Mega Tyranitar248,Tyranitar,ROCK,700,100,164,150,95,120,71
+,Mega Tyranitar,DARK,,,,,,,
+Lugia249,Lugia,PSYCHIC,680,106,90,130,90,154,110
+,,FLYING,,,,,,,
+Ho-oh250,Ho-oh,FIRE,680,106,130,90,110,154,90
+,,FLYING,,,,,,,
+Celebi251,Celebi,PSYCHIC,600,100,100,100,100,100,100
+,,GRASS,,,,,,,
+Treecko252,Treecko,GRASS,310,40,45,35,65,55,70
+Grovyle253,Grovyle,GRASS,405,50,65,45,85,65,95
+Sceptile254,Sceptile,GRASS,530,70,85,65,105,85,120
+Mega Sceptile254,Sceptile,GRASS,630,70,110,75,145,85,145
+,Mega Sceptile,DRAGON,,,,,,,
+Torchic255,Torchic,FIRE,310,45,60,40,70,50,45
+Combusken256,Combusken,FIRE,405,60,85,60,85,60,55
+,,FIGHTING,,,,,,,
+Blaziken257,Blaziken,FIRE,530,80,120,70,110,70,80
+,,FIGHTING,,,,,,,
+Mega Blaziken257,Blaziken,FIRE,630,80,160,80,130,80,100
+,Mega Blaziken,FIGHTING,,,,,,,
+Mudkip258,Mudkip,WATER,310,50,70,50,50,50,40
+Marshtomp259,Marshtomp,WATER,405,70,85,70,60,70,50
+,,GROUND,,,,,,,
+Swampert260,Swampert,WATER,535,100,110,90,85,90,60
+,,GROUND,,,,,,,
+Mega Swampert260,Swampert,WATER,635,100,150,110,95,110,70
+,Mega Swampert,GROUND,,,,,,,
+Poochyena261,Poochyena,DARK,220,35,55,35,30,30,35
+Mightyena262,Mightyena,DARK,420,70,90,70,60,60,70
+Zigzagoon263,Zigzagoon,NORMAL,240,38,30,41,30,41,60
+Galarian Zigzagoon263,Zigzagoon,DARK,240,38,30,41,30,41,60
+,Galarian Zigzagoon,NORMAL,,,,,,,
+Linoone264,Linoone,NORMAL,420,78,70,61,50,61,100
+Galarian Linoone264,Linoone,DARK,420,78,70,61,50,61,100
+,Galarian Linoone,NORMAL,,,,,,,
+Wurmple265,Wurmple,BUG,195,45,45,35,20,30,20
+Silcoon266,Silcoon,BUG,205,50,35,55,25,25,15
+Beautifly267,Beautifly,BUG,395,60,70,50,100,50,65
+,,FLYING,,,,,,,
+Cascoon268,Cascoon,BUG,205,50,35,55,25,25,15
+Dustox269,Dustox,BUG,385,60,50,70,50,90,65
+,,POISON,,,,,,,
+Lotad270,Lotad,WATER,220,40,30,30,40,50,30
+,,GRASS,,,,,,,
+Lombre271,Lombre,WATER,340,60,50,50,60,70,50
+,,GRASS,,,,,,,
+Ludicolo272,Ludicolo,WATER,480,80,70,70,90,100,70
+,,GRASS,,,,,,,
+Seedot273,Seedot,GRASS,220,40,40,50,30,30,30
+Nuzleaf274,Nuzleaf,GRASS,340,70,70,40,60,40,60
+,,DARK,,,,,,,
+Shiftry275,Shiftry,GRASS,480,90,100,60,90,60,80
+,,DARK,,,,,,,
+Taillow276,Taillow,NORMAL,270,40,55,30,30,30,85
+,,FLYING,,,,,,,
+Swellow277,Swellow,NORMAL,455,60,85,60,75,50,125
+,,FLYING,,,,,,,
+Wingull278,Wingull,WATER,270,40,30,30,55,30,85
+,,FLYING,,,,,,,
+Pelipper279,Pelipper,WATER,440,60,50,100,95,70,65
+,,FLYING,,,,,,,
+Ralts280,Ralts,PSYCHIC,198,28,25,25,45,35,40
+,,FAIRY,,,,,,,
+Kirlia281,Kirlia,PSYCHIC,278,38,35,35,65,55,50
+,,FAIRY,,,,,,,
+Gardevoir282,Gardevoir,PSYCHIC,518,68,65,65,125,115,80
+,,FAIRY,,,,,,,
+Mega Gardevoir282,Gardevoir,PSYCHIC,618,68,85,65,165,135,100
+,Mega Gardevoir,FAIRY,,,,,,,
+Surskit283,Surskit,BUG,269,40,30,32,50,52,65
+,,WATER,,,,,,,
+Masquerain284,Masquerain,BUG,454,70,60,62,100,82,80
+,,FLYING,,,,,,,
+Shroomish285,Shroomish,GRASS,295,60,40,60,40,60,35
+Breloom286,Breloom,GRASS,460,60,130,80,60,60,70
+,,FIGHTING,,,,,,,
+Slakoth287,Slakoth,NORMAL,280,60,60,60,35,35,30
+Vigoroth288,Vigoroth,NORMAL,440,80,80,80,55,55,90
+Slaking289,Slaking,NORMAL,670,150,160,100,95,65,100
+Nincada290,Nincada,BUG,266,31,45,90,30,30,40
+,,GROUND,,,,,,,
+Ninjask291,Ninjask,BUG,456,61,90,45,50,50,160
+,,FLYING,,,,,,,
+Shedinja292,Shedinja,BUG,236,1,90,45,30,30,40
+,,GHOST,,,,,,,
+Whismur293,Whismur,NORMAL,240,64,51,23,51,23,28
+Loudred294,Loudred,NORMAL,360,84,71,43,71,43,48
+Exploud295,Exploud,NORMAL,490,104,91,63,91,73,68
+Makuhita296,Makuhita,FIGHTING,237,72,60,30,20,30,25
+Hariyama297,Hariyama,FIGHTING,474,144,120,60,40,60,50
+Azurill298,Azurill,NORMAL,190,50,20,40,20,40,20
+,,FAIRY,,,,,,,
+Nosepass299,Nosepass,ROCK,375,30,45,135,45,90,30
+Skitty300,Skitty,NORMAL,260,50,45,45,35,35,50
+Delcatty301,Delcatty,NORMAL,400,70,65,65,55,55,90
+Sableye302,Sableye,DARK,380,50,75,75,65,65,50
+,,GHOST,,,,,,,
+Mega Sableye302,Sableye,DARK,480,50,85,125,85,115,20
+,Mega Sableye,GHOST,,,,,,,
+Mawile303,Mawile,STEEL,380,50,85,85,55,55,50
+,,FAIRY,,,,,,,
+Mega Mawile303,Mawile,STEEL,480,50,105,125,55,95,50
+,Mega Mawile,FAIRY,,,,,,,
+Aron304,Aron,STEEL,330,50,70,100,40,40,30
+,,ROCK,,,,,,,
+Lairon305,Lairon,STEEL,430,60,90,140,50,50,40
+,,ROCK,,,,,,,
+Aggron306,Aggron,STEEL,530,70,110,180,60,60,50
+,,ROCK,,,,,,,
+Mega Aggron306,Aggron,STEEL,630,70,140,230,60,80,50
+,Mega Aggron,,,,,,,,
+Meditite307,Meditite,FIGHTING,280,30,40,55,40,55,60
+,,PSYCHIC,,,,,,,
+Medicham308,Medicham,FIGHTING,410,60,60,75,60,75,80
+,,PSYCHIC,,,,,,,
+Mega Medicham308,Medicham,FIGHTING,510,60,100,85,80,85,100
+,Mega Medicham,PSYCHIC,,,,,,,
+Electrike309,Electrike,ELECTRIC,295,40,45,40,65,40,65
+Manectric310,Manectric,ELECTRIC,475,70,75,60,105,60,105
+Mega Manectric310,Manectric,ELECTRIC,575,70,75,80,135,80,135
+,Mega Manectric,,,,,,,,
+Plusle311,Plusle,ELECTRIC,405,60,50,40,85,75,95
+Minun312,Minun,ELECTRIC,405,60,40,50,75,85,95
+Volbeat313,Volbeat,BUG,430,65,73,75,47,85,85
+Illumise314,Illumise,BUG,430,65,47,75,73,85,85
+Roselia315,Roselia,GRASS,400,50,60,45,100,80,65
+,,POISON,,,,,,,
+Gulpin316,Gulpin,POISON,302,70,43,53,43,53,40
+Swalot317,Swalot,POISON,467,100,73,83,73,83,55
+Carvanha318,Carvanha,WATER,305,45,90,20,65,20,65
+,,DARK,,,,,,,
+Sharpedo319,Sharpedo,WATER,460,70,120,40,95,40,95
+,,DARK,,,,,,,
+Mega Sharpedo319,Sharpedo,WATER,560,70,140,70,110,65,105
+,Mega Sharpedo,DARK,,,,,,,
+Wailmer320,Wailmer,WATER,400,130,70,35,70,35,60
+Wailord321,Wailord,WATER,500,170,90,45,90,45,60
+Numel322,Numel,FIRE,305,60,60,40,65,45,35
+,,GROUND,,,,,,,
+Camerupt323,Camerupt,FIRE,460,70,100,70,105,75,40
+,,GROUND,,,,,,,
+Mega Camerupt323,Camerupt,FIRE,560,70,120,100,145,105,20
+,Mega Camerupt,GROUND,,,,,,,
+Torkoal324,Torkoal,FIRE,470,70,85,140,85,70,20
+Spoink325,Spoink,PSYCHIC,330,60,25,35,70,80,60
+Grumpig326,Grumpig,PSYCHIC,470,80,45,65,90,110,80
+Spinda327,Spinda,NORMAL,360,60,60,60,60,60,60
+Trapinch328,Trapinch,GROUND,290,45,100,45,45,45,10
+Vibrava329,Vibrava,GROUND,340,50,70,50,50,50,70
+,,DRAGON,,,,,,,
+Flygon330,Flygon,GROUND,520,80,100,80,80,80,100
+,,DRAGON,,,,,,,
+Cacnea331,Cacnea,GRASS,335,50,85,40,85,40,35
+Cacturne332,Cacturne,GRASS,475,70,115,60,115,60,55
+,,DARK,,,,,,,
+Swablu333,Swablu,NORMAL,310,45,40,60,40,75,50
+,,FLYING,,,,,,,
+Altaria334,Altaria,DRAGON,490,75,70,90,70,105,80
+,,FLYING,,,,,,,
+Mega Altaria334,Altaria,DRAGON,590,75,110,110,110,105,80
+,Mega Altaria,FAIRY,,,,,,,
+Zangoose335,Zangoose,NORMAL,458,73,115,60,60,60,90
+Seviper336,Seviper,POISON,458,73,100,60,100,60,65
+Lunatone337,Lunatone,ROCK,460,90,55,65,95,85,70
+,,PSYCHIC,,,,,,,
+Solrock338,Solrock,ROCK,460,90,95,85,55,65,70
+,,PSYCHIC,,,,,,,
+Barboach339,Barboach,WATER,288,50,48,43,46,41,60
+,,GROUND,,,,,,,
+Whiscash340,Whiscash,WATER,468,110,78,73,76,71,60
+,,GROUND,,,,,,,
+Corphish341,Corphish,WATER,308,43,80,65,50,35,35
+Crawdaunt342,Crawdaunt,WATER,468,63,120,85,90,55,55
+,,DARK,,,,,,,
+Baltoy343,Baltoy,GROUND,300,40,40,55,40,70,55
+,,PSYCHIC,,,,,,,
+Claydol344,Claydol,GROUND,500,60,70,105,70,120,75
+,,PSYCHIC,,,,,,,
+Lileep345,Lileep,ROCK,355,66,41,77,61,87,23
+,,GRASS,,,,,,,
+Cradily346,Cradily,ROCK,495,86,81,97,81,107,43
+,,GRASS,,,,,,,
+Anorith347,Anorith,ROCK,355,45,95,50,40,50,75
+,,BUG,,,,,,,
+Armaldo348,Armaldo,ROCK,495,75,125,100,70,80,45
+,,BUG,,,,,,,
+Feebas349,Feebas,WATER,200,20,15,20,10,55,80
+Milotic350,Milotic,WATER,540,95,60,79,100,125,81
+Castform351,Castform,NORMAL,420,70,70,70,70,70,70
+Castform (Sunny Form)351,Castform,FIRE,420,70,70,70,70,70,70
+,Sunny Form,,,,,,,,
+Castform (Rainy Form)351,Castform,WATER,420,70,70,70,70,70,70
+,Rainy Form,,,,,,,,
+Castform (Snowy Form)351,Castform,ICE,420,70,70,70,70,70,70
+,Snowy Form,,,,,,,,
+Kecleon352,Kecleon,NORMAL,440,60,90,70,60,120,40
+Shuppet353,Shuppet,GHOST,295,44,75,35,63,33,45
+Banette354,Banette,GHOST,455,64,115,65,83,63,65
+Mega Banette354,Banette,GHOST,555,64,165,75,93,83,75
+,Mega Banette,,,,,,,,
+Duskull355,Duskull,GHOST,295,20,40,90,30,90,25
+Dusclops356,Dusclops,GHOST,455,40,70,130,60,130,25
+Tropius357,Tropius,GRASS,460,99,68,83,72,87,51
+,,FLYING,,,,,,,
+Chimecho358,Chimecho,PSYCHIC,455,75,50,80,95,90,65
+Absol359,Absol,DARK,465,65,130,60,75,60,75
+Mega Absol359,Absol,DARK,565,65,150,60,115,60,115
+,Mega Absol,,,,,,,,
+Wynaut360,Wynaut,PSYCHIC,260,95,23,48,23,48,23
+Snorunt361,Snorunt,ICE,300,50,50,50,50,50,50
+Glalie362,Glalie,ICE,480,80,80,80,80,80,80
+Mega Glalie362,Glalie,ICE,580,80,120,80,120,80,100
+,Mega Glalie,,,,,,,,
+Spheal363,Spheal,ICE,290,70,40,50,55,50,25
+,,WATER,,,,,,,
+Sealeo364,Sealeo,ICE,410,90,60,70,75,70,45
+,,WATER,,,,,,,
+Walrein365,Walrein,ICE,530,110,80,90,95,90,65
+,,WATER,,,,,,,
+Clamperl366,Clamperl,WATER,345,35,64,85,74,55,32
+Huntail367,Huntail,WATER,485,55,104,105,94,75,52
+Gorebyss368,Gorebyss,WATER,485,55,84,105,114,75,52
+Relicanth369,Relicanth,WATER,485,100,90,130,45,65,55
+,,ROCK,,,,,,,
+Luvdisc370,Luvdisc,WATER,330,43,30,55,40,65,97
+Bagon371,Bagon,DRAGON,300,45,75,60,40,30,50
+Shelgon372,Shelgon,DRAGON,420,65,95,100,60,50,50
+Salamence373,Salamence,DRAGON,600,95,135,80,110,80,100
+,,FLYING,,,,,,,
+Mega Salamence373,Salamence,DRAGON,700,95,145,130,120,90,120
+,Mega Salamence,FLYING,,,,,,,
+Beldum374,Beldum,STEEL,300,40,55,80,35,60,30
+,,PSYCHIC,,,,,,,
+Metang375,Metang,STEEL,420,60,75,100,55,80,50
+,,PSYCHIC,,,,,,,
+Metagross376,Metagross,STEEL,600,80,135,130,95,90,70
+,,PSYCHIC,,,,,,,
+Mega Metagross376,Metagross,STEEL,700,80,145,150,105,110,110
+,Mega Metagross,PSYCHIC,,,,,,,
+Regirock377,Regirock,ROCK,580,80,100,200,50,100,50
+Regice378,Regice,ICE,580,80,50,100,100,200,50
+Registeel379,Registeel,STEEL,580,80,75,150,75,150,50
+Latias380,Latias,DRAGON,600,80,80,90,110,130,110
+,,PSYCHIC,,,,,,,
+Mega Latias380,Latias,DRAGON,700,80,100,120,140,150,110
+,Mega Latias,PSYCHIC,,,,,,,
+Latios381,Latios,DRAGON,600,80,90,80,130,110,110
+,,PSYCHIC,,,,,,,
+Mega Latios381,Latios,DRAGON,700,80,130,100,160,120,110
+,Mega Latios,PSYCHIC,,,,,,,
+Kyogre382,Kyogre,WATER,670,100,100,90,150,140,90
+Primal Kyogre382,Kyogre,WATER,770,100,150,90,180,160,90
+,Primal Kyogre,,,,,,,,
+Groudon383,Groudon,GROUND,670,100,150,140,100,90,90
+Primal Groudon383,Groudon,GROUND,770,100,180,160,150,90,90
+,Primal Groudon,FIRE,,,,,,,
+Rayquaza384,Rayquaza,DRAGON,680,105,150,90,150,90,95
+,,FLYING,,,,,,,
+Mega Rayquaza384,Rayquaza,DRAGON,780,105,180,100,180,100,115
+,Mega Rayquaza,FLYING,,,,,,,
+Jirachi385,Jirachi,STEEL,600,100,100,100,100,100,100
+,,PSYCHIC,,,,,,,
+Deoxys (Normal Forme)386,Deoxys,PSYCHIC,600,50,150,50,150,50,150
+,Normal Forme,,,,,,,,
+Deoxys (Attack Forme)386,Deoxys,PSYCHIC,600,50,180,20,180,20,150
+,Attack Forme,,,,,,,,
+Deoxys (Defense Forme)386,Deoxys,PSYCHIC,600,50,70,160,70,160,90
+,Defense Forme,,,,,,,,
+Deoxys (Speed Forme)386,Deoxys,PSYCHIC,600,50,95,90,95,90,180
+,Speed Forme,,,,,,,,
+Turtwig387,Turtwig,GRASS,318,55,68,64,45,55,31
+Grotle388,Grotle,GRASS,405,75,89,85,55,65,36
+Torterra389,Torterra,GRASS,525,95,109,105,75,85,56
+,,GROUND,,,,,,,
+Chimchar390,Chimchar,FIRE,309,44,58,44,58,44,61
+Monferno391,Monferno,FIRE,405,64,78,52,78,52,81
+,,FIGHTING,,,,,,,
+Infernape392,Infernape,FIRE,534,76,104,71,104,71,108
+,,FIGHTING,,,,,,,
+Piplup393,Piplup,WATER,314,53,51,53,61,56,40
+Prinplup394,Prinplup,WATER,405,64,66,68,81,76,50
+Empoleon395,Empoleon,WATER,530,84,86,88,111,101,60
+,,STEEL,,,,,,,
+Starly396,Starly,NORMAL,245,40,55,30,30,30,60
+,,FLYING,,,,,,,
+Staravia397,Staravia,NORMAL,340,55,75,50,40,40,80
+,,FLYING,,,,,,,
+Staraptor398,Staraptor,NORMAL,485,85,120,70,50,60,100
+,,FLYING,,,,,,,
+Bidoof399,Bidoof,NORMAL,250,59,45,40,35,40,31
+Bibarel400,Bibarel,NORMAL,410,79,85,60,55,60,71
+,,WATER,,,,,,,
+Kricketot401,Kricketot,BUG,194,37,25,41,25,41,25
+Kricketune402,Kricketune,BUG,384,77,85,51,55,51,65
+Shinx403,Shinx,ELECTRIC,263,45,65,34,40,34,45
+Luxio404,Luxio,ELECTRIC,363,60,85,49,60,49,60
+Luxray405,Luxray,ELECTRIC,523,80,120,79,95,79,70
+Budew406,Budew,GRASS,280,40,30,35,50,70,55
+,,POISON,,,,,,,
+Roserade407,Roserade,GRASS,515,60,70,65,125,105,90
+,,POISON,,,,,,,
+Cranidos408,Cranidos,ROCK,350,67,125,40,30,30,58
+Rampardos409,Rampardos,ROCK,495,97,165,60,65,50,58
+Shieldon410,Shieldon,ROCK,350,30,42,118,42,88,30
+,,STEEL,,,,,,,
+Bastiodon411,Bastiodon,ROCK,495,60,52,168,47,138,30
+,,STEEL,,,,,,,
+Burmy (Plant Cloak)412,Burmy,BUG,224,40,29,45,29,45,36
+,Plant Cloak,,,,,,,,
+Burmy (Sandy Cloak)412,Burmy,BUG,224,40,29,45,29,45,36
+,Sandy Cloak,,,,,,,,
+Burmy (Trash Cloak)412,Burmy,BUG,224,40,29,45,29,45,36
+,Trash Cloak,,,,,,,,
+Wormadam (Plant Cloak)413,Wormadam,BUG,424,60,59,85,79,105,36
+,Plant Cloak,GRASS,,,,,,,
+Wormadam (Sandy Cloak)413,Wormadam,BUG,424,60,79,105,59,85,36
+,Sandy Cloak,GROUND,,,,,,,
+Wormadam (Trash Cloak)413,Wormadam,BUG,424,60,69,95,69,95,36
+,Trash Cloak,STEEL,,,,,,,
+Mothim414,Mothim,BUG,424,70,94,50,94,50,66
+,,FLYING,,,,,,,
+Combee415,Combee,BUG,244,30,30,42,30,42,70
+,,FLYING,,,,,,,
+Vespiquen416,Vespiquen,BUG,474,70,80,102,80,102,40
+,,FLYING,,,,,,,
+Pachirisu417,Pachirisu,ELECTRIC,405,60,45,70,45,90,95
+Buizel418,Buizel,WATER,330,55,65,35,60,30,85
+Floatzel419,Floatzel,WATER,495,85,105,55,85,50,115
+Cherubi420,Cherubi,GRASS,275,45,35,45,62,53,35
+Cherrim421,Cherrim,GRASS,450,70,60,70,87,78,85
+Shellos422,Shellos,WATER,325,76,48,48,57,62,34
+Gastrodon423,Gastrodon,WATER,475,111,83,68,92,82,39
+,,GROUND,,,,,,,
+Ambipom424,Ambipom,NORMAL,482,75,100,66,60,66,115
+Drifloon425,Drifloon,GHOST,348,90,50,34,60,44,70
+,,FLYING,,,,,,,
+Drifblim426,Drifblim,GHOST,498,150,80,44,90,54,80
+,,FLYING,,,,,,,
+Buneary427,Buneary,NORMAL,350,55,66,44,44,56,85
+Lopunny428,Lopunny,NORMAL,480,65,76,84,54,96,105
+Mega Lopunny428,Lopunny,NORMAL,580,65,136,94,54,96,135
+,Mega Lopunny,FIGHTING,,,,,,,
+Mismagius429,Mismagius,GHOST,495,60,60,60,105,105,105
+Honchkrow430,Honchkrow,DARK,505,100,125,52,105,52,71
+,,FLYING,,,,,,,
+Glameow431,Glameow,NORMAL,310,49,55,42,42,37,85
+Purugly432,Purugly,NORMAL,452,71,82,64,64,59,112
+Chingling433,Chingling,PSYCHIC,285,45,30,50,65,50,45
+Stunky434,Stunky,POISON,329,63,63,47,41,41,74
+,,DARK,,,,,,,
+Skuntank435,Skuntank,POISON,479,103,93,67,71,61,84
+,,DARK,,,,,,,
+Bronzor436,Bronzor,STEEL,300,57,24,86,24,86,23
+,,PSYCHIC,,,,,,,
+Bronzong437,Bronzong,STEEL,500,67,89,116,79,116,33
+,,PSYCHIC,,,,,,,
+Bonsly438,Bonsly,ROCK,290,50,80,95,10,45,10
+Mime Jr.439,Mime Jr.,PSYCHIC,310,20,25,45,70,90,60
+,,FAIRY,,,,,,,
+Happiny440,Happiny,NORMAL,220,100,5,5,15,65,30
+Chatot441,Chatot,NORMAL,411,76,65,45,92,42,91
+,,FLYING,,,,,,,
+Spiritomb442,Spiritomb,GHOST,485,50,92,108,92,108,35
+,,DARK,,,,,,,
+Gible443,Gible,DRAGON,300,58,70,45,40,45,42
+,,GROUND,,,,,,,
+Gabite444,Gabite,DRAGON,410,68,90,65,50,55,82
+,,GROUND,,,,,,,
+Garchomp445,Garchomp,DRAGON,600,108,130,95,80,85,102
+,,GROUND,,,,,,,
+Mega Garchomp445,Garchomp,DRAGON,700,108,170,115,120,95,92
+,Mega Garchomp,GROUND,,,,,,,
+Munchlax446,Munchlax,NORMAL,390,135,85,40,40,85,5
+Riolu447,Riolu,FIGHTING,285,40,70,40,35,40,60
+Lucario448,Lucario,FIGHTING,525,70,110,70,115,70,90
+,,STEEL,,,,,,,
+Mega Lucario448,Lucario,FIGHTING,625,70,145,88,140,70,112
+,Mega Lucario,STEEL,,,,,,,
+Hippopotas449,Hippopotas,GROUND,330,68,72,78,38,42,32
+Hippowdon450,Hippowdon,GROUND,525,108,112,118,68,72,47
+Skorupi451,Skorupi,POISON,330,40,50,90,30,55,65
+,,BUG,,,,,,,
+Drapion452,Drapion,POISON,500,70,90,110,60,75,95
+,,DARK,,,,,,,
+Croagunk453,Croagunk,POISON,300,48,61,40,61,40,50
+,,FIGHTING,,,,,,,
+Toxicroak454,Toxicroak,POISON,490,83,106,65,86,65,85
+,,FIGHTING,,,,,,,
+Carnivine455,Carnivine,GRASS,454,74,100,72,90,72,46
+Finneon456,Finneon,WATER,330,49,49,56,49,61,66
+Lumineon457,Lumineon,WATER,460,69,69,76,69,86,91
+Mantyke458,Mantyke,WATER,345,45,20,50,60,120,50
+,,FLYING,,,,,,,
+Snover459,Snover,GRASS,334,60,62,50,62,60,40
+,,ICE,,,,,,,
+Abomasnow460,Abomasnow,GRASS,494,90,92,75,92,85,60
+,,ICE,,,,,,,
+Mega Abomasnow460,Abomasnow,GRASS,594,90,132,105,132,105,30
+,Mega Abomasnow,ICE,,,,,,,
+Weavile461,Weavile,DARK,510,70,120,65,45,85,125
+,,ICE,,,,,,,
+Magnezone462,Magnezone,ELECTRIC,535,70,70,115,130,90,60
+,,STEEL,,,,,,,
+Lickilicky463,Lickilicky,NORMAL,515,110,85,95,80,95,50
+Rhyperior464,Rhyperior,GROUND,535,115,140,130,55,55,40
+,,ROCK,,,,,,,
+Tangrowth465,Tangrowth,GRASS,535,100,100,125,110,50,50
+Electivire466,Electivire,ELECTRIC,540,75,123,67,95,85,95
+Magmortar467,Magmortar,FIRE,540,75,95,67,125,95,83
+Togekiss468,Togekiss,FAIRY,545,85,50,95,120,115,80
+,,FLYING,,,,,,,
+Yanmega469,Yanmega,BUG,515,86,76,86,116,56,95
+,,FLYING,,,,,,,
+Leafeon470,Leafeon,GRASS,525,65,110,130,60,65,95
+Glaceon471,Glaceon,ICE,525,65,60,110,130,95,65
+Gliscor472,Gliscor,GROUND,510,75,95,125,45,75,95
+,,FLYING,,,,,,,
+Mamoswine473,Mamoswine,ICE,530,110,130,80,70,60,80
+,,GROUND,,,,,,,
+Porygon-Z474,Porygon-Z,NORMAL,535,85,80,70,135,75,90
+Gallade475,Gallade,PSYCHIC,518,68,125,65,65,115,80
+,,FIGHTING,,,,,,,
+Mega Gallade475,Gallade,PSYCHIC,618,68,165,95,65,115,110
+,Mega Gallade,FIGHTING,,,,,,,
+Probopass476,Probopass,ROCK,525,60,55,145,75,150,40
+,,STEEL,,,,,,,
+Dusknoir477,Dusknoir,GHOST,525,45,100,135,65,135,45
+Froslass478,Froslass,ICE,480,70,80,70,80,70,110
+,,GHOST,,,,,,,
+Rotom479,Rotom,ELECTRIC,440,50,50,77,95,77,91
+,,GHOST,,,,,,,
+Rotom (Heat Rotom)479,Rotom,ELECTRIC,520,50,65,107,105,107,86
+,Heat Rotom,FIRE,,,,,,,
+Rotom (Wash Rotom)479,Rotom,ELECTRIC,520,50,65,107,105,107,86
+,Wash Rotom,WATER,,,,,,,
+Rotom (Frost Rotom)479,Rotom,ELECTRIC,520,50,65,107,105,107,86
+,Frost Rotom,ICE,,,,,,,
+Rotom (Fan Rotom)479,Rotom,ELECTRIC,520,50,65,107,105,107,86
+,Fan Rotom,FLYING,,,,,,,
+Rotom (Mow Rotom)479,Rotom,ELECTRIC,520,50,65,107,105,107,86
+,Mow Rotom,GRASS,,,,,,,
+Uxie480,Uxie,PSYCHIC,580,75,75,130,75,130,95
+Mesprit481,Mesprit,PSYCHIC,580,80,105,105,105,105,80
+Azelf482,Azelf,PSYCHIC,580,75,125,70,125,70,115
+Dialga483,Dialga,STEEL,680,100,120,120,150,100,90
+,,DRAGON,,,,,,,
+Dialga (Origin Forme)483,Dialga,STEEL,680,100,100,120,150,120,90
+,Origin Forme,DRAGON,,,,,,,
+Palkia484,Palkia,WATER,680,90,120,100,150,120,100
+,,DRAGON,,,,,,,
+Palkia (Origin Forme)484,Palkia,WATER,680,90,100,100,150,120,120
+,Origin Forme,DRAGON,,,,,,,
+Heatran485,Heatran,FIRE,600,91,90,106,130,106,77
+,,STEEL,,,,,,,
+Regigigas486,Regigigas,NORMAL,670,110,160,110,80,110,100
+Giratina (Altered Forme)487,Giratina,GHOST,680,150,100,120,100,120,90
+,Altered Forme,DRAGON,,,,,,,
+Giratina (Origin Forme)487,Giratina,GHOST,680,150,120,100,120,100,90
+,Origin Forme,DRAGON,,,,,,,
+Cresselia488,Cresselia,PSYCHIC,600,120,70,120,75,130,85
+Phione489,Phione,WATER,480,80,80,80,80,80,80
+Manaphy490,Manaphy,WATER,600,100,100,100,100,100,100
+Darkrai491,Darkrai,DARK,600,70,90,90,135,90,125
+Shaymin (Land Forme)492,Shaymin,GRASS,600,100,100,100,100,100,100
+,Land Forme,,,,,,,,
+Shaymin (Sky Forme)492,Shaymin,GRASS,600,100,103,75,120,75,127
+,Sky Forme,FLYING,,,,,,,
+Arceus493,Arceus,NORMAL,720,120,120,120,120,120,120
+Victini494,Victini,PSYCHIC,600,100,100,100,100,100,100
+,,FIRE,,,,,,,
+Snivy495,Snivy,GRASS,308,45,45,55,45,55,63
+Servine496,Servine,GRASS,413,60,60,75,60,75,83
+Serperior497,Serperior,GRASS,528,75,75,95,75,95,113
+Tepig498,Tepig,FIRE,308,65,63,45,45,45,45
+Pignite499,Pignite,FIRE,418,90,93,55,70,55,55
+,,FIGHTING,,,,,,,
+Emboar500,Emboar,FIRE,528,110,123,65,100,65,65
+,,FIGHTING,,,,,,,
+Oshawott501,Oshawott,WATER,308,55,55,45,63,45,45
+Dewott502,Dewott,WATER,413,75,75,60,83,60,60
+Samurott503,Samurott,WATER,528,95,100,85,108,70,70
+Samurott (Hisuian Samurott)503,Samurott,WATER,528,90,108,80,100,65,85
+,Hisuian Samurott,DARK,,,,,,,
+Patrat504,Patrat,NORMAL,255,45,55,39,35,39,42
+Watchog505,Watchog,NORMAL,420,60,85,69,60,69,77
+Lillipup506,Lillipup,NORMAL,275,45,60,45,25,45,55
+Herdier507,Herdier,NORMAL,370,65,80,65,35,65,60
+Stoutland508,Stoutland,NORMAL,500,85,110,90,45,90,80
+Purrloin509,Purrloin,DARK,281,41,50,37,50,37,66
+Liepard510,Liepard,DARK,446,64,88,50,88,50,106
+Pansage511,Pansage,GRASS,316,50,53,48,53,48,64
+Simisage512,Simisage,GRASS,498,75,98,63,98,63,101
+Pansear513,Pansear,FIRE,316,50,53,48,53,48,64
+Simisear514,Simisear,FIRE,498,75,98,63,98,63,101
+Panpour515,Panpour,WATER,316,50,53,48,53,48,64
+Simipour516,Simipour,WATER,498,75,98,63,98,63,101
+Munna517,Munna,PSYCHIC,292,76,25,45,67,55,24
+Musharna518,Musharna,PSYCHIC,487,116,55,85,107,95,29
+Pidove519,Pidove,NORMAL,264,50,55,50,36,30,43
+,,FLYING,,,,,,,
+Tranquill520,Tranquill,NORMAL,358,62,77,62,50,42,65
+,,FLYING,,,,,,,
+Unfezant521,Unfezant,NORMAL,488,80,115,80,65,55,93
+,,FLYING,,,,,,,
+Blitzle522,Blitzle,ELECTRIC,295,45,60,32,50,32,76
+Zebstrika523,Zebstrika,ELECTRIC,497,75,100,63,80,63,116
+Roggenrola524,Roggenrola,ROCK,280,55,75,85,25,25,15
+Boldore525,Boldore,ROCK,390,70,105,105,50,40,20
+Gigalith526,Gigalith,ROCK,515,85,135,130,60,80,25
+Woobat527,Woobat,PSYCHIC,323,65,45,43,55,43,72
+,,FLYING,,,,,,,
+Swoobat528,Swoobat,PSYCHIC,425,67,57,55,77,55,114
+,,FLYING,,,,,,,
+Drilbur529,Drilbur,GROUND,328,60,85,40,30,45,68
+Excadrill530,Excadrill,GROUND,508,110,135,60,50,65,88
+,,STEEL,,,,,,,
+Audino531,Audino,NORMAL,445,103,60,86,60,86,50
+Mega Audino531,Audino,NORMAL,545,103,60,126,80,126,50
+,Mega Audino,FAIRY,,,,,,,
+Timburr532,Timburr,FIGHTING,305,75,80,55,25,35,35
+Gurdurr533,Gurdurr,FIGHTING,405,85,105,85,40,50,40
+Conkeldurr534,Conkeldurr,FIGHTING,505,105,140,95,55,65,45
+Tympole535,Tympole,WATER,294,50,50,40,50,40,64
+Palpitoad536,Palpitoad,WATER,384,75,65,55,65,55,69
+,,GROUND,,,,,,,
+Seismitoad537,Seismitoad,WATER,509,105,95,75,85,75,74
+,,GROUND,,,,,,,
+Throh538,Throh,FIGHTING,465,120,100,85,30,85,45
+Sawk539,Sawk,FIGHTING,465,75,125,75,30,75,85
+Sewaddle540,Sewaddle,BUG,310,45,53,70,40,60,42
+,,GRASS,,,,,,,
+Swadloon541,Swadloon,BUG,380,55,63,90,50,80,42
+,,GRASS,,,,,,,
+Leavanny542,Leavanny,BUG,500,75,103,80,70,80,92
+,,GRASS,,,,,,,
+Venipede543,Venipede,BUG,260,30,45,59,30,39,57
+,,POISON,,,,,,,
+Whirlipede544,Whirlipede,BUG,360,40,55,99,40,79,47
+,,POISON,,,,,,,
+Scolipede545,Scolipede,BUG,485,60,100,89,55,69,112
+,,POISON,,,,,,,
+Cottonee546,Cottonee,GRASS,280,40,27,60,37,50,66
+,,FAIRY,,,,,,,
+Whimsicott547,Whimsicott,GRASS,480,60,67,85,77,75,116
+,,FAIRY,,,,,,,
+Petilil548,Petilil,GRASS,280,45,35,50,70,50,30
+Lilligant549,Lilligant,GRASS,480,70,60,75,110,75,90
+Lilligant (Hisuian Lilligant)549,Lilligant,GRASS,480,70,105,75,50,75,105
+,Hisuian Lilligant,FIGHTING,,,,,,,
+Basculin (Red-Striped Form)550,Basculin,WATER,460,70,92,65,80,55,98
+,Red-Striped Form,,,,,,,,
+Basculin (Blue-Striped Form)550,Basculin,WATER,460,70,92,65,80,55,98
+,Blue-Striped Form,,,,,,,,
+Basculin (White-Striped Form)550,Basculin,WATER,460,70,92,65,80,55,98
+,White-Striped Form,,,,,,,,
+Sandile551,Sandile,GROUND,292,50,72,35,35,35,65
+,,DARK,,,,,,,
+Krokorok552,Krokorok,GROUND,351,60,82,45,45,45,74
+,,DARK,,,,,,,
+Krookodile553,Krookodile,GROUND,519,95,117,80,65,70,92
+,,DARK,,,,,,,
+Darumaka554,Darumaka,FIRE,315,70,90,45,15,45,50
+Galarian Darumaka554,Darumaka,ICE,315,70,90,45,15,45,50
+,Galarian Darumaka,,,,,,,,
+Darmanitan (Standard Mode)555,Darmanitan,FIRE,480,105,140,55,30,55,95
+,Standard Mode,,,,,,,,
+Darmanitan (Zen Mode)555,Darmanitan,FIRE,540,105,30,105,140,105,55
+,Zen Mode,PSYCHIC,,,,,,,
+Darmanitan (Galarian Standard Mode)555,Darmanitan,ICE,480,105,140,55,30,55,95
+,Galarian Standard Mode,,,,,,,,
+Darmanitan (Galarian Zen Mode)555,Darmanitan,ICE,540,105,160,55,30,55,135
+,Galarian Zen Mode,FIRE,,,,,,,
+Maractus556,Maractus,GRASS,461,75,86,67,106,67,60
+Dwebble557,Dwebble,BUG,325,50,65,85,35,35,55
+,,ROCK,,,,,,,
+Crustle558,Crustle,BUG,485,70,105,125,65,75,45
+,,ROCK,,,,,,,
+Scraggy559,Scraggy,DARK,348,50,75,70,35,70,48
+,,FIGHTING,,,,,,,
+Scrafty560,Scrafty,DARK,488,65,90,115,45,115,58
+,,FIGHTING,,,,,,,
+Sigilyph561,Sigilyph,PSYCHIC,490,72,58,80,103,80,97
+,,FLYING,,,,,,,
+Yamask562,Yamask,GHOST,303,38,30,85,55,65,30
+Galarian Yamask562,Yamask,GROUND,303,38,55,85,30,65,30
+,Galarian Yamask,GHOST,,,,,,,
+Cofagrigus563,Cofagrigus,GHOST,483,58,50,145,95,105,30
+Tirtouga564,Tirtouga,WATER,355,54,78,103,53,45,22
+,,ROCK,,,,,,,
+Carracosta565,Carracosta,WATER,495,74,108,133,83,65,32
+,,ROCK,,,,,,,
+Archen566,Archen,ROCK,401,55,112,45,74,45,70
+,,FLYING,,,,,,,
+Archeops567,Archeops,ROCK,567,75,140,65,112,65,110
+,,FLYING,,,,,,,
+Trubbish568,Trubbish,POISON,329,50,50,62,40,62,65
+Garbodor569,Garbodor,POISON,474,80,95,82,60,82,75
+Zorua570,Zorua,DARK,330,40,65,40,80,40,65
+Zorua (Hisuian Zorua)570,Zorua,NORMAL,330,35,60,40,85,40,70
+,Hisuian Zorua,GHOST,,,,,,,
+Zoroark571,Zoroark,DARK,510,60,105,60,120,60,105
+Zoroark (Hisuian Zoroark)571,Zoroark,NORMAL,510,55,100,60,125,60,110
+,Hisuian Zoroark,GHOST,,,,,,,
+Minccino572,Minccino,NORMAL,300,55,50,40,40,40,75
+Cinccino573,Cinccino,NORMAL,470,75,95,60,65,60,115
+Gothita574,Gothita,PSYCHIC,290,45,30,50,55,65,45
+Gothorita575,Gothorita,PSYCHIC,390,60,45,70,75,85,55
+Gothitelle576,Gothitelle,PSYCHIC,490,70,55,95,95,110,65
+Solosis577,Solosis,PSYCHIC,290,45,30,40,105,50,20
+Duosion578,Duosion,PSYCHIC,370,65,40,50,125,60,30
+Reuniclus579,Reuniclus,PSYCHIC,490,110,65,75,125,85,30
+Ducklett580,Ducklett,WATER,305,62,44,50,44,50,55
+,,FLYING,,,,,,,
+Swanna581,Swanna,WATER,473,75,87,63,87,63,98
+,,FLYING,,,,,,,
+Vanillite582,Vanillite,ICE,305,36,50,50,65,60,44
+Vanillish583,Vanillish,ICE,395,51,65,65,80,75,59
+Vanilluxe584,Vanilluxe,ICE,535,71,95,85,110,95,79
+Deerling585,Deerling,NORMAL,335,60,60,50,40,50,75
+,,GRASS,,,,,,,
+Sawsbuck586,Sawsbuck,NORMAL,475,80,100,70,60,70,95
+,,GRASS,,,,,,,
+Emolga587,Emolga,ELECTRIC,428,55,75,60,75,60,103
+,,FLYING,,,,,,,
+Karrablast588,Karrablast,BUG,315,50,75,45,40,45,60
+Escavalier589,Escavalier,BUG,495,70,135,105,60,105,20
+,,STEEL,,,,,,,
+Foongus590,Foongus,GRASS,294,69,55,45,55,55,15
+,,POISON,,,,,,,
+Amoonguss591,Amoonguss,GRASS,464,114,85,70,85,80,30
+,,POISON,,,,,,,
+Frillish592,Frillish,WATER,335,55,40,50,65,85,40
+,,GHOST,,,,,,,
+Jellicent593,Jellicent,WATER,480,100,60,70,85,105,60
+,,GHOST,,,,,,,
+Alomomola594,Alomomola,WATER,470,165,75,80,40,45,65
+Joltik595,Joltik,BUG,319,50,47,50,57,50,65
+,,ELECTRIC,,,,,,,
+Galvantula596,Galvantula,BUG,472,70,77,60,97,60,108
+,,ELECTRIC,,,,,,,
+Ferroseed597,Ferroseed,GRASS,305,44,50,91,24,86,10
+,,STEEL,,,,,,,
+Ferrothorn598,Ferrothorn,GRASS,489,74,94,131,54,116,20
+,,STEEL,,,,,,,
+Klink599,Klink,STEEL,300,40,55,70,45,60,30
+Klang600,Klang,STEEL,440,60,80,95,70,85,50
+Klinklang601,Klinklang,STEEL,520,60,100,115,70,85,90
+Tynamo602,Tynamo,ELECTRIC,275,35,55,40,45,40,60
+Eelektrik603,Eelektrik,ELECTRIC,405,65,85,70,75,70,40
+Eelektross604,Eelektross,ELECTRIC,515,85,115,80,105,80,50
+Elgyem605,Elgyem,PSYCHIC,335,55,55,55,85,55,30
+Beheeyem606,Beheeyem,PSYCHIC,485,75,75,75,125,95,40
+Litwick607,Litwick,GHOST,275,50,30,55,65,55,20
+,,FIRE,,,,,,,
+Lampent608,Lampent,GHOST,370,60,40,60,95,60,55
+,,FIRE,,,,,,,
+Chandelure609,Chandelure,GHOST,520,60,55,90,145,90,80
+,,FIRE,,,,,,,
+Axew610,Axew,DRAGON,320,46,87,60,30,40,57
+Fraxure611,Fraxure,DRAGON,410,66,117,70,40,50,67
+Haxorus612,Haxorus,DRAGON,540,76,147,90,60,70,97
+Cubchoo613,Cubchoo,ICE,305,55,70,40,60,40,40
+Beartic614,Beartic,ICE,505,95,130,80,70,80,50
+Cryogonal615,Cryogonal,ICE,515,80,50,50,95,135,105
+Shelmet616,Shelmet,BUG,305,50,40,85,40,65,25
+Accelgor617,Accelgor,BUG,495,80,70,40,100,60,145
+Stunfisk618,Stunfisk,GROUND,471,109,66,84,81,99,32
+,,ELECTRIC,,,,,,,
+Galarian Stunfisk618,Stunfisk,GROUND,471,109,81,99,66,84,32
+,Galarian Stunfisk,STEEL,,,,,,,
+Mienfoo619,Mienfoo,FIGHTING,350,45,85,50,55,50,65
+Mienshao620,Mienshao,FIGHTING,510,65,125,60,95,60,105
+Druddigon621,Druddigon,DRAGON,485,77,120,90,60,90,48
+Golett622,Golett,GROUND,303,59,74,50,35,50,35
+,,GHOST,,,,,,,
+Golurk623,Golurk,GROUND,483,89,124,80,55,80,55
+,,GHOST,,,,,,,
+Pawniard624,Pawniard,DARK,340,45,85,70,40,40,60
+,,STEEL,,,,,,,
+Bisharp625,Bisharp,DARK,490,65,125,100,60,70,70
+,,STEEL,,,,,,,
+Bouffalant626,Bouffalant,NORMAL,490,95,110,95,40,95,55
+Rufflet627,Rufflet,NORMAL,350,70,83,50,37,50,60
+,,FLYING,,,,,,,
+Braviary628,Braviary,NORMAL,510,100,123,75,57,75,80
+,,FLYING,,,,,,,
+Braviary (Hisuian Braviary)628,Braviary,PSYCHIC,510,110,83,70,112,70,65
+,Hisuian Braviary,FLYING,,,,,,,
+Vullaby629,Vullaby,DARK,370,70,55,75,45,65,60
+,,FLYING,,,,,,,
+Mandibuzz630,Mandibuzz,DARK,510,110,65,105,55,95,80
+,,FLYING,,,,,,,
+Heatmor631,Heatmor,FIRE,484,85,97,66,105,66,65
+Durant632,Durant,BUG,484,58,109,112,48,48,109
+,,STEEL,,,,,,,
+Deino633,Deino,DARK,300,52,65,50,45,50,38
+,,DRAGON,,,,,,,
+Zweilous634,Zweilous,DARK,420,72,85,70,65,70,58
+,,DRAGON,,,,,,,
+Hydreigon635,Hydreigon,DARK,600,92,105,90,125,90,98
+,,DRAGON,,,,,,,
+Larvesta636,Larvesta,BUG,360,55,85,55,50,55,60
+,,FIRE,,,,,,,
+Volcarona637,Volcarona,BUG,550,85,60,65,135,105,100
+,,FIRE,,,,,,,
+Cobalion638,Cobalion,STEEL,580,91,90,129,90,72,108
+,,FIGHTING,,,,,,,
+Terrakion639,Terrakion,ROCK,580,91,129,90,72,90,108
+,,FIGHTING,,,,,,,
+Virizion640,Virizion,GRASS,580,91,90,72,90,129,108
+,,FIGHTING,,,,,,,
+Tornadus (Incarnate Forme)641,Tornadus,FLYING,580,79,115,70,125,80,111
+,Incarnate Forme,,,,,,,,
+Tornadus (Therian Forme)641,Tornadus,FLYING,580,79,100,80,110,90,121
+,Therian Forme,,,,,,,,
+Thundurus (Incarnate Forme)642,Thundurus,ELECTRIC,580,79,115,70,125,80,111
+,Incarnate Forme,FLYING,,,,,,,
+Thundurus (Therian Forme)642,Thundurus,ELECTRIC,580,79,105,70,145,80,101
+,Therian Forme,FLYING,,,,,,,
+Reshiram643,Reshiram,DRAGON,680,100,120,100,150,120,90
+,,FIRE,,,,,,,
+Zekrom644,Zekrom,DRAGON,680,100,150,120,120,100,90
+,,ELECTRIC,,,,,,,
+Landorus (Incarnate Forme)645,Landorus,GROUND,600,89,125,90,115,80,101
+,Incarnate Forme,FLYING,,,,,,,
+Landorus (Therian Forme)645,Landorus,GROUND,600,89,145,90,105,80,91
+,Therian Forme,FLYING,,,,,,,
+Kyurem646,Kyurem,DRAGON,660,125,130,90,130,90,95
+,,ICE,,,,,,,
+Kyurem (White Kyurem)646,Kyurem,DRAGON,700,125,120,90,170,100,95
+,White Kyurem,ICE,,,,,,,
+Kyurem (Black Kyurem)646,Kyurem,DRAGON,700,125,170,100,120,90,95
+,Black Kyurem,ICE,,,,,,,
+Keldeo (Ordinary Form)647,Keldeo,WATER,580,91,72,90,129,90,108
+,Ordinary Form,FIGHTING,,,,,,,
+Keldeo (Resolute Form)647,Keldeo,WATER,580,91,72,90,129,90,108
+,Resolute Form,FIGHTING,,,,,,,
+Meloetta (Aria Forme)648,Meloetta,NORMAL,600,100,77,77,128,128,90
+,Aria Forme,PSYCHIC,,,,,,,
+Meloetta (Pirouette Forme)648,Meloetta,NORMAL,600,100,128,90,77,77,128
+,Pirouette Forme,FIGHTING,,,,,,,
+Genesect649,Genesect,BUG,600,71,120,95,120,95,99
+,,STEEL,,,,,,,
+Chespin650,Chespin,GRASS,313,56,61,65,48,45,38
+Quilladin651,Quilladin,GRASS,405,61,78,95,56,58,57
+Chesnaught652,Chesnaught,GRASS,530,88,107,122,74,75,64
+,,FIGHTING,,,,,,,
+Fennekin653,Fennekin,FIRE,307,40,45,40,62,60,60
+Braixen654,Braixen,FIRE,409,59,59,58,90,70,73
+Delphox655,Delphox,FIRE,534,75,69,72,114,100,104
+,,PSYCHIC,,,,,,,
+Froakie656,Froakie,WATER,314,41,56,40,62,44,71
+Frogadier657,Frogadier,WATER,405,54,63,52,83,56,97
+Greninja658,Greninja,WATER,530,72,95,67,103,71,122
+,,DARK,,,,,,,
+Greninja (Ash-Greninja)658,Greninja,WATER,640,72,145,67,153,71,132
+,Ash-Greninja,DARK,,,,,,,
+Bunnelby659,Bunnelby,NORMAL,237,38,36,38,32,36,57
+Diggersby660,Diggersby,NORMAL,423,85,56,77,50,77,78
+,,GROUND,,,,,,,
+Fletchling661,Fletchling,NORMAL,278,45,50,43,40,38,62
+,,FLYING,,,,,,,
+Fletchinder662,Fletchinder,FIRE,382,62,73,55,56,52,84
+,,FLYING,,,,,,,
+Talonflame663,Talonflame,FIRE,499,78,81,71,74,69,126
+,,FLYING,,,,,,,
+Scatterbug664,Scatterbug,BUG,200,38,35,40,27,25,35
+Spewpa665,Spewpa,BUG,213,45,22,60,27,30,29
+Vivillon666,Vivillon,BUG,411,80,52,50,90,50,89
+,,FLYING,,,,,,,
+Litleo667,Litleo,FIRE,369,62,50,58,73,54,72
+,,NORMAL,,,,,,,
+Pyroar668,Pyroar,FIRE,507,86,68,72,109,66,106
+,,NORMAL,,,,,,,
+Flabébé669,Flabébé,FAIRY,303,44,38,39,61,79,42
+Floette670,Floette,FAIRY,371,54,45,47,75,98,52
+Florges671,Florges,FAIRY,552,78,65,68,112,154,75
+Skiddo672,Skiddo,GRASS,350,66,65,48,62,57,52
+Gogoat673,Gogoat,GRASS,531,123,100,62,97,81,68
+Pancham674,Pancham,FIGHTING,348,67,82,62,46,48,43
+Pangoro675,Pangoro,FIGHTING,495,95,124,78,69,71,58
+,,DARK,,,,,,,
+Furfrou676,Furfrou,NORMAL,472,75,80,60,65,90,102
+Espurr677,Espurr,PSYCHIC,355,62,48,54,63,60,68
+Meowstic (Male)678,Meowstic,PSYCHIC,466,74,48,76,83,81,104
+,Male,,,,,,,,
+Meowstic (Female)678,Meowstic,PSYCHIC,466,74,48,76,83,81,104
+,Female,,,,,,,,
+Honedge679,Honedge,STEEL,325,45,80,100,35,37,28
+,,GHOST,,,,,,,
+Doublade680,Doublade,STEEL,448,59,110,150,45,49,35
+,,GHOST,,,,,,,
+Aegislash (Shield Forme)681,Aegislash,STEEL,500,60,50,140,50,140,60
+,Shield Forme,GHOST,,,,,,,
+Aegislash (Blade Forme)681,Aegislash,STEEL,500,60,140,50,140,50,60
+,Blade Forme,GHOST,,,,,,,
+Spritzee682,Spritzee,FAIRY,341,78,52,60,63,65,23
+Aromatisse683,Aromatisse,FAIRY,462,101,72,72,99,89,29
+Swirlix684,Swirlix,FAIRY,341,62,48,66,59,57,49
+Slurpuff685,Slurpuff,FAIRY,480,82,80,86,85,75,72
+Inkay686,Inkay,DARK,288,53,54,53,37,46,45
+,,PSYCHIC,,,,,,,
+Malamar687,Malamar,DARK,482,86,92,88,68,75,73
+,,PSYCHIC,,,,,,,
+Binacle688,Binacle,ROCK,306,42,52,67,39,56,50
+,,WATER,,,,,,,
+Barbaracle689,Barbaracle,ROCK,500,72,105,115,54,86,68
+,,WATER,,,,,,,
+Skrelp690,Skrelp,POISON,320,50,60,60,60,60,30
+,,WATER,,,,,,,
+Dragalge691,Dragalge,POISON,494,65,75,90,97,123,44
+,,DRAGON,,,,,,,
+Clauncher692,Clauncher,WATER,330,50,53,62,58,63,44
+Clawitzer693,Clawitzer,WATER,500,71,73,88,120,89,59
+Helioptile694,Helioptile,ELECTRIC,289,44,38,33,61,43,70
+,,NORMAL,,,,,,,
+Heliolisk695,Heliolisk,ELECTRIC,481,62,55,52,109,94,109
+,,NORMAL,,,,,,,
+Tyrunt696,Tyrunt,ROCK,362,58,89,77,45,45,48
+,,DRAGON,,,,,,,
+Tyrantrum697,Tyrantrum,ROCK,521,82,121,119,69,59,71
+,,DRAGON,,,,,,,
+Amaura698,Amaura,ROCK,362,77,59,50,67,63,46
+,,ICE,,,,,,,
+Aurorus699,Aurorus,ROCK,521,123,77,72,99,92,58
+,,ICE,,,,,,,
+Sylveon700,Sylveon,FAIRY,525,95,65,65,110,130,60
+Hawlucha701,Hawlucha,FIGHTING,500,78,92,75,74,63,118
+,,FLYING,,,,,,,
+Dedenne702,Dedenne,ELECTRIC,431,67,58,57,81,67,101
+,,FAIRY,,,,,,,
+Carbink703,Carbink,ROCK,500,50,50,150,50,150,50
+,,FAIRY,,,,,,,
+Goomy704,Goomy,DRAGON,300,45,50,35,55,75,40
+Sliggoo705,Sliggoo,DRAGON,452,68,75,53,83,113,60
+Sliggoo (Hisuian Sliggoo)705,Sliggoo,DRAGON,452,58,75,83,83,113,40
+,Hisuian Sliggoo,STEEL,,,,,,,
+Goodra706,Goodra,DRAGON,600,90,100,70,110,150,80
+Goodra (Hisuian Goodra)706,Goodra,DRAGON,600,80,100,100,110,150,60
+,Hisuian Goodra,STEEL,,,,,,,
+Klefki707,Klefki,STEEL,470,57,80,91,80,87,75
+,,FAIRY,,,,,,,
+Phantump708,Phantump,GHOST,309,43,70,48,50,60,38
+,,GRASS,,,,,,,
+Trevenant709,Trevenant,GHOST,474,85,110,76,65,82,56
+,,GRASS,,,,,,,
+Pumpkaboo (Average Size)710,Pumpkaboo,GHOST,335,49,66,70,44,55,51
+,Average Size,GRASS,,,,,,,
+Pumpkaboo (Small Size)710,Pumpkaboo,GHOST,335,44,66,70,44,55,56
+,Small Size,GRASS,,,,,,,
+Pumpkaboo (Large Size)710,Pumpkaboo,GHOST,335,54,66,70,44,55,46
+,Large Size,GRASS,,,,,,,
+Pumpkaboo (Super Size)710,Pumpkaboo,GHOST,335,59,66,70,44,55,41
+,Super Size,GRASS,,,,,,,
+Gourgeist (Average Size)711,Gourgeist,GHOST,494,65,90,122,58,75,84
+,Average Size,GRASS,,,,,,,
+Gourgeist (Small Size)711,Gourgeist,GHOST,494,55,85,122,58,75,99
+,Small Size,GRASS,,,,,,,
+Gourgeist (Large Size)711,Gourgeist,GHOST,494,75,95,122,58,75,69
+,Large Size,GRASS,,,,,,,
+Gourgeist (Super Size)711,Gourgeist,GHOST,494,85,100,122,58,75,54
+,Super Size,GRASS,,,,,,,
+Bergmite712,Bergmite,ICE,304,55,69,85,32,35,28
+Avalugg713,Avalugg,ICE,514,95,117,184,44,46,28
+Avalugg (Hisuian Avalugg)713,Avalugg,ICE,514,95,127,184,34,36,38
+,Hisuian Avalugg,ROCK,,,,,,,
+Noibat714,Noibat,FLYING,245,40,30,35,45,40,55
+,,DRAGON,,,,,,,
+Noivern715,Noivern,FLYING,535,85,70,80,97,80,123
+,,DRAGON,,,,,,,
+Xerneas716,Xerneas,FAIRY,680,126,131,95,131,98,99
+Yveltal717,Yveltal,DARK,680,126,131,95,131,98,99
+,,FLYING,,,,,,,
+Zygarde (50% Forme)718,Zygarde,DRAGON,600,108,100,121,81,95,95
+,50% Forme,GROUND,,,,,,,
+Zygarde (10% Forme)718,Zygarde,DRAGON,486,54,100,71,61,85,115
+,10% Forme,GROUND,,,,,,,
+Zygarde (Complete Forme)718,Zygarde,DRAGON,708,216,100,121,91,95,85
+,Complete Forme,GROUND,,,,,,,
+Diancie719,Diancie,ROCK,600,50,100,150,100,150,50
+,,FAIRY,,,,,,,
+Mega Diancie719,Diancie,ROCK,700,50,160,110,160,110,110
+,Mega Diancie,FAIRY,,,,,,,
+Hoopa (Hoopa Confined)720,Hoopa,PSYCHIC,600,80,110,60,150,130,70
+,Hoopa Confined,GHOST,,,,,,,
+Hoopa (Hoopa Unbound)720,Hoopa,PSYCHIC,680,80,160,60,170,130,80
+,Hoopa Unbound,DARK,,,,,,,
+Volcanion721,Volcanion,FIRE,600,80,110,120,130,90,70
+,,WATER,,,,,,,
+Rowlet722,Rowlet,GRASS,320,68,55,55,50,50,42
+,,FLYING,,,,,,,
+Dartrix723,Dartrix,GRASS,420,78,75,75,70,70,52
+,,FLYING,,,,,,,
+Decidueye724,Decidueye,GRASS,530,78,107,75,100,100,70
+,,GHOST,,,,,,,
+Decidueye (Hisuian Decidueye)724,Decidueye,GRASS,530,88,112,80,95,95,60
+,Hisuian Decidueye,FIGHTING,,,,,,,
+Litten725,Litten,FIRE,320,45,65,40,60,40,70
+Torracat726,Torracat,FIRE,420,65,85,50,80,50,90
+Incineroar727,Incineroar,FIRE,530,95,115,90,80,90,60
+,,DARK,,,,,,,
+Popplio728,Popplio,WATER,320,50,54,54,66,56,40
+Brionne729,Brionne,WATER,420,60,69,69,91,81,50
+Primarina730,Primarina,WATER,530,80,74,74,126,116,60
+,,FAIRY,,,,,,,
+Pikipek731,Pikipek,NORMAL,265,35,75,30,30,30,65
+,,FLYING,,,,,,,
+Trumbeak732,Trumbeak,NORMAL,355,55,85,50,40,50,75
+,,FLYING,,,,,,,
+Toucannon733,Toucannon,NORMAL,485,80,120,75,75,75,60
+,,FLYING,,,,,,,
+Yungoos734,Yungoos,NORMAL,253,48,70,30,30,30,45
+Gumshoos735,Gumshoos,NORMAL,418,88,110,60,55,60,45
+Grubbin736,Grubbin,BUG,300,47,62,45,55,45,46
+Charjabug737,Charjabug,BUG,400,57,82,95,55,75,36
+,,ELECTRIC,,,,,,,
+Vikavolt738,Vikavolt,BUG,500,77,70,90,145,75,43
+,,ELECTRIC,,,,,,,
+Crabrawler739,Crabrawler,FIGHTING,338,47,82,57,42,47,63
+Crabominable740,Crabominable,FIGHTING,478,97,132,77,62,67,43
+,,ICE,,,,,,,
+Oricorio (Baile Style)741,Oricorio,FIRE,476,75,70,70,98,70,93
+,Baile Style,FLYING,,,,,,,
+Oricorio (Pom-Pom Style)741,Oricorio,ELECTRIC,476,75,70,70,98,70,93
+,Pom-Pom Style,FLYING,,,,,,,
+Oricorio (Pa'u Style)741,Oricorio,PSYCHIC,476,75,70,70,98,70,93
+,Pa'u Style,FLYING,,,,,,,
+Oricorio (Sensu Style)741,Oricorio,GHOST,476,75,70,70,98,70,93
+,Sensu Style,FLYING,,,,,,,
+Cutiefly742,Cutiefly,BUG,304,40,45,40,55,40,84
+,,FAIRY,,,,,,,
+Ribombee743,Ribombee,BUG,464,60,55,60,95,70,124
+,,FAIRY,,,,,,,
+Rockruff744,Rockruff,ROCK,280,45,65,40,30,40,60
+Rockruff (Own Tempo Rockruff)744,Rockruff,ROCK,280,45,65,40,30,40,60
+,Own Tempo Rockruff,,,,,,,,
+Lycanroc (Midday Form)745,Lycanroc,ROCK,487,75,115,65,55,65,112
+,Midday Form,,,,,,,,
+Lycanroc (Midnight Form)745,Lycanroc,ROCK,487,85,115,75,55,75,82
+,Midnight Form,,,,,,,,
+Lycanroc (Dusk Form)745,Lycanroc,ROCK,487,75,117,65,55,65,110
+,Dusk Form,,,,,,,,
+Wishiwashi (Solo Form)746,Wishiwashi,WATER,175,45,20,20,25,25,40
+,Solo Form,,,,,,,,
+Wishiwashi (School Form)746,Wishiwashi,WATER,620,45,140,130,140,135,30
+,School Form,,,,,,,,
+Mareanie747,Mareanie,POISON,305,50,53,62,43,52,45
+,,WATER,,,,,,,
+Toxapex748,Toxapex,POISON,495,50,63,152,53,142,35
+,,WATER,,,,,,,
+Mudbray749,Mudbray,GROUND,385,70,100,70,45,55,45
+Mudsdale750,Mudsdale,GROUND,500,100,125,100,55,85,35
+Dewpider751,Dewpider,WATER,269,38,40,52,40,72,27
+,,BUG,,,,,,,
+Araquanid752,Araquanid,WATER,454,68,70,92,50,132,42
+,,BUG,,,,,,,
+Fomantis753,Fomantis,GRASS,250,40,55,35,50,35,35
+Lurantis754,Lurantis,GRASS,480,70,105,90,80,90,45
+Morelull755,Morelull,GRASS,285,40,35,55,65,75,15
+,,FAIRY,,,,,,,
+Shiinotic756,Shiinotic,GRASS,405,60,45,80,90,100,30
+,,FAIRY,,,,,,,
+Salandit757,Salandit,POISON,320,48,44,40,71,40,77
+,,FIRE,,,,,,,
+Salazzle758,Salazzle,POISON,480,68,64,60,111,60,117
+,,FIRE,,,,,,,
+Stufful759,Stufful,NORMAL,340,70,75,50,45,50,50
+,,FIGHTING,,,,,,,
+Bewear760,Bewear,NORMAL,500,120,125,80,55,60,60
+,,FIGHTING,,,,,,,
+Bounsweet761,Bounsweet,GRASS,210,42,30,38,30,38,32
+Steenee762,Steenee,GRASS,290,52,40,48,40,48,62
+Tsareena763,Tsareena,GRASS,510,72,120,98,50,98,72
+Comfey764,Comfey,FAIRY,485,51,52,90,82,110,100
+Oranguru765,Oranguru,NORMAL,490,90,60,80,90,110,60
+,,PSYCHIC,,,,,,,
+Passimian766,Passimian,FIGHTING,490,100,120,90,40,60,80
+Wimpod767,Wimpod,BUG,230,25,35,40,20,30,80
+,,WATER,,,,,,,
+Golisopod768,Golisopod,BUG,530,75,125,140,60,90,40
+,,WATER,,,,,,,
+Sandygast769,Sandygast,GHOST,320,55,55,80,70,45,15
+,,GROUND,,,,,,,
+Palossand770,Palossand,GHOST,480,85,75,110,100,75,35
+,,GROUND,,,,,,,
+Pyukumuku771,Pyukumuku,WATER,410,55,60,130,30,130,5
+Type: Null772,Type: Null,NORMAL,534,95,95,95,95,95,59
+Silvally773,Silvally,NORMAL,570,95,95,95,95,95,95
+Minior (Meteor Form)774,Minior,ROCK,440,60,60,100,60,100,60
+,Meteor Form,FLYING,,,,,,,
+Minior (Core Form)774,Minior,ROCK,500,60,100,60,100,60,120
+,Core Form,FLYING,,,,,,,
+Komala775,Komala,NORMAL,480,65,115,65,75,95,65
+Turtonator776,Turtonator,FIRE,485,60,78,135,91,85,36
+,,DRAGON,,,,,,,
+Togedemaru777,Togedemaru,ELECTRIC,435,65,98,63,40,73,96
+,,STEEL,,,,,,,
+Mimikyu778,Mimikyu,GHOST,476,55,90,80,50,105,96
+,,FAIRY,,,,,,,
+Bruxish779,Bruxish,WATER,475,68,105,70,70,70,92
+,,PSYCHIC,,,,,,,
+Drampa780,Drampa,NORMAL,485,78,60,85,135,91,36
+,,DRAGON,,,,,,,
+Dhelmise781,Dhelmise,GHOST,517,70,131,100,86,90,40
+,,GRASS,,,,,,,
+Jangmo-o782,Jangmo-o,DRAGON,300,45,55,65,45,45,45
+Hakamo-o783,Hakamo-o,DRAGON,420,55,75,90,65,70,65
+,,FIGHTING,,,,,,,
+Kommo-o784,Kommo-o,DRAGON,600,75,110,125,100,105,85
+,,FIGHTING,,,,,,,
+Tapu Koko785,Tapu Koko,ELECTRIC,570,70,115,85,95,75,130
+,,FAIRY,,,,,,,
+Tapu Lele786,Tapu Lele,PSYCHIC,570,70,85,75,130,115,95
+,,FAIRY,,,,,,,
+Tapu Bulu787,Tapu Bulu,GRASS,570,70,130,115,85,95,75
+,,FAIRY,,,,,,,
+Tapu Fini788,Tapu Fini,WATER,570,70,75,115,95,130,85
+,,FAIRY,,,,,,,
+Cosmog789,Cosmog,PSYCHIC,200,43,29,31,29,31,37
+Cosmoem790,Cosmoem,PSYCHIC,400,43,29,131,29,131,37
+Solgaleo791,Solgaleo,PSYCHIC,680,137,137,107,113,89,97
+,,STEEL,,,,,,,
+Lunala792,Lunala,PSYCHIC,680,137,113,89,137,107,97
+,,GHOST,,,,,,,
+Nihilego793,Nihilego,ROCK,570,109,53,47,127,131,103
+,,POISON,,,,,,,
+Buzzwole794,Buzzwole,BUG,570,107,139,139,53,53,79
+,,FIGHTING,,,,,,,
+Pheromosa795,Pheromosa,BUG,570,71,137,37,137,37,151
+,,FIGHTING,,,,,,,
+Xurkitree796,Xurkitree,ELECTRIC,570,83,89,71,173,71,83
+Celesteela797,Celesteela,STEEL,570,97,101,103,107,101,61
+,,FLYING,,,,,,,
+Kartana798,Kartana,GRASS,570,59,181,131,59,31,109
+,,STEEL,,,,,,,
+Guzzlord799,Guzzlord,DARK,570,223,101,53,97,53,43
+,,DRAGON,,,,,,,
+Necrozma800,Necrozma,PSYCHIC,600,97,107,101,127,89,79
+Necrozma (Dusk Mane Necrozma)800,Necrozma,PSYCHIC,680,97,157,127,113,109,77
+,Dusk Mane Necrozma,STEEL,,,,,,,
+Necrozma (Dawn Wings Necrozma)800,Necrozma,PSYCHIC,680,97,113,109,157,127,77
+,Dawn Wings Necrozma,GHOST,,,,,,,
+Necrozma (Ultra Necrozma)800,Necrozma,PSYCHIC,754,97,167,97,167,97,129
+,Ultra Necrozma,DRAGON,,,,,,,
+Magearna801,Magearna,STEEL,600,80,95,115,130,115,65
+,,FAIRY,,,,,,,
+Marshadow802,Marshadow,FIGHTING,600,90,125,80,90,90,125
+,,GHOST,,,,,,,
+Poipole803,Poipole,POISON,420,67,73,67,73,67,73
+Naganadel804,Naganadel,POISON,540,73,73,73,127,73,121
+,,DRAGON,,,,,,,
+Stakataka805,Stakataka,ROCK,570,61,131,211,53,101,13
+,,STEEL,,,,,,,
+Blacephalon806,Blacephalon,FIRE,570,53,127,53,151,79,107
+,,GHOST,,,,,,,
+Zeraora807,Zeraora,ELECTRIC,600,88,112,75,102,80,143
+Meltan808,Meltan,STEEL,300,46,65,65,55,35,34
+Melmetal809,Melmetal,STEEL,600,135,143,143,80,65,34
+Grookey810,Grookey,GRASS,310,50,65,50,40,40,65
+Thwackey811,Thwackey,GRASS,420,70,85,70,55,60,80
+Rillaboom812,Rillaboom,GRASS,530,100,125,90,60,70,85
+Scorbunny813,Scorbunny,FIRE,310,50,71,40,40,40,69
+Raboot814,Raboot,FIRE,420,65,86,60,55,60,94
+Cinderace815,Cinderace,FIRE,530,80,116,75,65,75,119
+Sobble816,Sobble,WATER,310,50,40,40,70,40,70
+Drizzile817,Drizzile,WATER,420,65,60,55,95,55,90
+Inteleon818,Inteleon,WATER,530,70,85,65,125,65,120
+Skwovet819,Skwovet,NORMAL,275,70,55,55,35,35,25
+Greedent820,Greedent,NORMAL,460,120,95,95,55,75,20
+Rookidee821,Rookidee,FLYING,245,38,47,35,33,35,57
+Corvisquire822,Corvisquire,FLYING,365,68,67,55,43,55,77
+Corviknight823,Corviknight,FLYING,495,98,87,105,53,85,67
+,,STEEL,,,,,,,
+Blipbug824,Blipbug,BUG,180,25,20,20,25,45,45
+Dottler825,Dottler,BUG,335,50,35,80,50,90,30
+,,PSYCHIC,,,,,,,
+Orbeetle826,Orbeetle,BUG,505,60,45,110,80,120,90
+,,PSYCHIC,,,,,,,
+Nickit827,Nickit,DARK,245,40,28,28,47,52,50
+Thievul828,Thievul,DARK,455,70,58,58,87,92,90
+Gossifleur829,Gossifleur,GRASS,250,40,40,60,40,60,10
+Eldegoss830,Eldegoss,GRASS,460,60,50,90,80,120,60
+Wooloo831,Wooloo,NORMAL,270,42,40,55,40,45,48
+Dubwool832,Dubwool,NORMAL,490,72,80,100,60,90,88
+Chewtle833,Chewtle,WATER,284,50,64,50,38,38,44
+Drednaw834,Drednaw,WATER,485,90,115,90,48,68,74
+,,ROCK,,,,,,,
+Yamper835,Yamper,ELECTRIC,270,59,45,50,40,50,26
+Boltund836,Boltund,ELECTRIC,490,69,90,60,90,60,121
+Rolycoly837,Rolycoly,ROCK,240,30,40,50,40,50,30
+Carkol838,Carkol,ROCK,410,80,60,90,60,70,50
+,,FIRE,,,,,,,
+Coalossal839,Coalossal,ROCK,510,110,80,120,80,90,30
+,,FIRE,,,,,,,
+Applin840,Applin,GRASS,260,40,40,80,40,40,20
+,,DRAGON,,,,,,,
+Flapple841,Flapple,GRASS,485,70,110,80,95,60,70
+,,DRAGON,,,,,,,
+Appletun842,Appletun,GRASS,485,110,85,80,100,80,30
+,,DRAGON,,,,,,,
+Silicobra843,Silicobra,GROUND,315,52,57,75,35,50,46
+Sandaconda844,Sandaconda,GROUND,510,72,107,125,65,70,71
+Cramorant845,Cramorant,FLYING,475,70,85,55,85,95,85
+,,WATER,,,,,,,
+Arrokuda846,Arrokuda,WATER,280,41,63,40,40,30,66
+Barraskewda847,Barraskewda,WATER,490,61,123,60,60,50,136
+Toxel848,Toxel,ELECTRIC,242,40,38,35,54,35,40
+,,POISON,,,,,,,
+Toxtricity (Amped Form)849,Toxtricity,ELECTRIC,502,75,98,70,114,70,75
+,Amped Form,POISON,,,,,,,
+Toxtricity (Low Key Form)849,Toxtricity,ELECTRIC,502,75,98,70,114,70,75
+,Low Key Form,POISON,,,,,,,
+Sizzlipede850,Sizzlipede,FIRE,305,50,65,45,50,50,45
+,,BUG,,,,,,,
+Centiskorch851,Centiskorch,FIRE,525,100,115,65,90,90,65
+,,BUG,,,,,,,
+Clobbopus852,Clobbopus,FIGHTING,310,50,68,60,50,50,32
+Grapploct853,Grapploct,FIGHTING,480,80,118,90,70,80,42
+Sinistea854,Sinistea,GHOST,308,40,45,45,74,54,50
+Polteageist855,Polteageist,GHOST,508,60,65,65,134,114,70
+Hatenna856,Hatenna,PSYCHIC,265,42,30,45,56,53,39
+Hattrem857,Hattrem,PSYCHIC,370,57,40,65,86,73,49
+Hatterene858,Hatterene,PSYCHIC,510,57,90,95,136,103,29
+,,FAIRY,,,,,,,
+Impidimp859,Impidimp,DARK,265,45,45,30,55,40,50
+,,FAIRY,,,,,,,
+Morgrem860,Morgrem,DARK,370,65,60,45,75,55,70
+,,FAIRY,,,,,,,
+Grimmsnarl861,Grimmsnarl,DARK,510,95,120,65,95,75,60
+,,FAIRY,,,,,,,
+Obstagoon862,Obstagoon,DARK,520,93,90,101,60,81,95
+,,NORMAL,,,,,,,
+Perrserker863,Perrserker,STEEL,440,70,110,100,50,60,50
+Cursola864,Cursola,GHOST,510,60,95,50,145,130,30
+Sirfetch'd865,Sirfetch'd,FIGHTING,507,62,135,95,68,82,65
+Mr. Rime866,Mr. Rime,ICE,520,80,85,75,110,100,70
+,,PSYCHIC,,,,,,,
+Runerigus867,Runerigus,GROUND,483,58,95,145,50,105,30
+,,GHOST,,,,,,,
+Milcery868,Milcery,FAIRY,270,45,40,40,50,61,34
+Alcremie869,Alcremie,FAIRY,495,65,60,75,110,121,64
+Falinks870,Falinks,FIGHTING,470,65,100,100,70,60,75
+Pincurchin871,Pincurchin,ELECTRIC,435,48,101,95,91,85,15
+Snom872,Snom,ICE,185,30,25,35,45,30,20
+,,BUG,,,,,,,
+Frosmoth873,Frosmoth,ICE,475,70,65,60,125,90,65
+,,BUG,,,,,,,
+Stonjourner874,Stonjourner,ROCK,470,100,125,135,20,20,70
+Eiscue (Ice Face)875,Eiscue,ICE,470,75,80,110,65,90,50
+,Ice Face,,,,,,,,
+Eiscue (Noice Face)875,Eiscue,ICE,470,75,80,70,65,50,130
+,Noice Face,,,,,,,,
+Indeedee (Male)876,Indeedee,PSYCHIC,475,60,65,55,105,95,95
+,Male,NORMAL,,,,,,,
+Indeedee (Female)876,Indeedee,PSYCHIC,475,70,55,65,95,105,85
+,Female,NORMAL,,,,,,,
+Morpeko (Full Belly Mode)877,Morpeko,ELECTRIC,436,58,95,58,70,58,97
+,Full Belly Mode,DARK,,,,,,,
+Morpeko (Hangry Mode)877,Morpeko,ELECTRIC,436,58,95,58,70,58,97
+,Hangry Mode,DARK,,,,,,,
+Cufant878,Cufant,STEEL,330,72,80,49,40,49,40
+Copperajah879,Copperajah,STEEL,500,122,130,69,80,69,30
+Dracozolt880,Dracozolt,ELECTRIC,505,90,100,90,80,70,75
+,,DRAGON,,,,,,,
+Arctozolt881,Arctozolt,ELECTRIC,505,90,100,90,90,80,55
+,,ICE,,,,,,,
+Dracovish882,Dracovish,WATER,505,90,90,100,70,80,75
+,,DRAGON,,,,,,,
+Arctovish883,Arctovish,WATER,505,90,90,100,80,90,55
+,,ICE,,,,,,,
+Duraludon884,Duraludon,STEEL,535,70,95,115,120,50,85
+,,DRAGON,,,,,,,
+Dreepy885,Dreepy,DRAGON,270,28,60,30,40,30,82
+,,GHOST,,,,,,,
+Drakloak886,Drakloak,DRAGON,410,68,80,50,60,50,102
+,,GHOST,,,,,,,
+Dragapult887,Dragapult,DRAGON,600,88,120,75,100,75,142
+,,GHOST,,,,,,,
+Zacian (Hero of Many Battles)888,Zacian,FAIRY,670,92,130,115,80,115,138
+,Hero of Many Battles,,,,,,,,
+Zacian (Crowned Sword)888,Zacian,FAIRY,720,92,170,115,80,115,148
+,Crowned Sword,STEEL,,,,,,,
+Zamazenta (Hero of Many Battles)889,Zamazenta,FIGHTING,670,92,130,115,80,115,138
+,Hero of Many Battles,,,,,,,,
+Zamazenta (Crowned Shield)889,Zamazenta,FIGHTING,720,92,130,145,80,145,128
+,Crowned Shield,STEEL,,,,,,,
+Eternatus890,Eternatus,POISON,690,140,85,95,145,95,130
+,,DRAGON,,,,,,,
+Eternatus (Eternamax)890,Eternatus,POISON,1125,255,115,250,125,250,130
+,Eternamax,DRAGON,,,,,,,
+Kubfu891,Kubfu,FIGHTING,385,60,90,60,53,50,72
+Urshifu (Single Strike Style)892,Urshifu,FIGHTING,550,100,130,100,63,60,97
+,Single Strike Style,DARK,,,,,,,
+Urshifu (Rapid Strike Style)892,Urshifu,FIGHTING,550,100,130,100,63,60,97
+,Rapid Strike Style,WATER,,,,,,,
+Zarude893,Zarude,DARK,600,105,120,105,70,95,105
+,,GRASS,,,,,,,
+Regieleki894,Regieleki,ELECTRIC,580,80,100,50,100,50,200
+Regidrago895,Regidrago,DRAGON,580,200,100,50,100,50,80
+Glastrier896,Glastrier,ICE,580,100,145,130,65,110,30
+Spectrier897,Spectrier,GHOST,580,100,65,60,145,80,130
+Calyrex898,Calyrex,PSYCHIC,500,100,80,80,80,80,80
+,,GRASS,,,,,,,
+Calyrex (Ice Rider)898,Calyrex,PSYCHIC,680,100,165,150,85,130,50
+,Ice Rider,ICE,,,,,,,
+Calyrex (Shadow Rider)898,Calyrex,PSYCHIC,680,100,85,80,165,100,150
+,Shadow Rider,GHOST,,,,,,,
+Wyrdeer899,Wyrdeer,NORMAL,525,103,105,72,105,75,65
+,,PSYCHIC,,,,,,,
+Kleavor900,Kleavor,BUG,500,70,135,95,45,70,85
+,,ROCK,,,,,,,
+Ursaluna901,Ursaluna,NORMAL,550,130,140,105,45,80,50
+,,GROUND,,,,,,,
+Basculegion (Male)902,Basculegion,WATER,530,120,112,65,80,75,78
+,Male,GHOST,,,,,,,
+Basculegion (Female)902,Basculegion,WATER,530,120,92,65,100,75,78
+,Female,GHOST,,,,,,,
+Sneasler903,Sneasler,POISON,510,80,130,60,40,80,120
+,,FIGHTING,,,,,,,
+Overqwil904,Overqwil,DARK,510,85,115,95,65,65,85
+,,POISON,,,,,,,
+Enamorus (Incarnate Forme)905,Enamorus,FAIRY,580,74,115,70,135,80,106
+,Incarnate Forme,FLYING,,,,,,,
+Enamorus (Therian Forme)905,Enamorus,FAIRY,580,74,115,110,135,100,46
+,Therian Forme,FLYING,,,,,,,
