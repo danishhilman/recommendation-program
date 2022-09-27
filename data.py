@@ -67,6 +67,9 @@ def get_all_pokemon_name():
 
             elif ("Hoopa (Hoopa Unbound)") in i["ï»¿#"]:
                 pokemon_name.append(pokedex[index + 1]["Name"])
+            
+            elif ("(Own Tempo Rockruff)") in i["ï»¿#"]:
+                pokemon_name.append(pokedex[index + 1]["Name"])
 
             elif ("Sunny ") in i["ï»¿#"]:
                 pokemon_name.append("Castform " + pokedex[index + 1]["Name"])
