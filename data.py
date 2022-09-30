@@ -10,7 +10,7 @@ def get_all_pokemon_name():
         pokemon_name = []
         index = 0
         for i in pokedex:
-            
+            #Pokemon parsing start
             if i["ï»¿#"] == "":
                 pass
             
@@ -69,6 +69,15 @@ def get_all_pokemon_name():
                 pokemon_name.append(pokedex[index + 1]["Name"])
             
             elif ("(Own Tempo Rockruff)") in i["ï»¿#"]:
+                pokemon_name.append(pokedex[index + 1]["Name"])
+
+            elif ("(Dusk Mane Necrozma)") in i["ï»¿#"]:
+                pokemon_name.append(pokedex[index + 1]["Name"])
+
+            elif ("(Dawn Wings Necrozma)") in i["ï»¿#"]:
+                pokemon_name.append(pokedex[index + 1]["Name"])
+
+            elif ("(Ultra Necrozma)") in i["ï»¿#"]:
                 pokemon_name.append(pokedex[index + 1]["Name"])
 
             elif ("Sunny ") in i["ï»¿#"]:
@@ -229,7 +238,73 @@ def get_all_pokemon_name():
 
             elif ("Oricorio (Sensu Style)") in i["ï»¿#"]:
                 pokemon_name.append("Oricorio " + pokedex[index + 1]["Name"])
+
+            elif ("Lycanroc (Midday Form)") in i["ï»¿#"]:
+                pokemon_name.append("Lycanroc " + pokedex[index + 1]["Name"])
+
+            elif ("Lycanroc (Midnight Form)") in i["ï»¿#"]:
+                pokemon_name.append("Lycanroc " + pokedex[index + 1]["Name"])
+
+            elif ("Lycanroc (Dusk Form)") in i["ï»¿#"]:
+                pokemon_name.append("Lycanroc " + pokedex[index + 1]["Name"])
+
+            elif ("Wishiwashi (Solo Form)") in i["ï»¿#"]:
+                pokemon_name.append("Wishiwashi " + pokedex[index + 1]["Name"])
+
+            elif ("Wishiwashi (School Form)") in i["ï»¿#"]:
+                pokemon_name.append("Wishiwashi " + pokedex[index + 1]["Name"])
+
+            elif ("Minior (Meteor Form)") in i["ï»¿#"]:
+                pokemon_name.append("Minior " + pokedex[index + 1]["Name"])
+
+            elif ("Minior (Core Form)") in i["ï»¿#"]:
+                pokemon_name.append("Minior " + pokedex[index + 1]["Name"])
+
+            elif ("Toxtricity (Amped Form)") in i["ï»¿#"]:
+                pokemon_name.append("Toxtricity " + pokedex[index + 1]["Name"])
             
+            elif ("Toxtricity (Low Key Form)") in i["ï»¿#"]:
+                pokemon_name.append("Toxtricity " + pokedex[index + 1]["Name"])
+
+            elif ("Eiscue (Ice Face)") in i["ï»¿#"]:
+                pokemon_name.append("Eiscue " + pokedex[index + 1]["Name"])
+
+            elif ("Eiscue (Noice Face)") in i["ï»¿#"]:
+                pokemon_name.append("Eiscue " + pokedex[index + 1]["Name"])
+
+            elif ("Morpeko (Full Belly Mode)") in i["ï»¿#"]:
+                pokemon_name.append("Morpeko " + pokedex[index + 1]["Name"])
+
+            elif ("Morpeko (Hangry Mode)") in i["ï»¿#"]:
+                pokemon_name.append("Morpeko " + pokedex[index + 1]["Name"])
+
+            elif ("Zacian (Crowned Sword)") in i["ï»¿#"]:
+                pokemon_name.append("Zacian " + pokedex[index + 1]["Name"])
+            
+            elif ("Zamazenta (Crowned Shield)") in i["ï»¿#"]:
+                pokemon_name.append("Zamazenta " + pokedex[index + 1]["Name"])
+
+            elif ("Eternatus (Eternamax)") in i["ï»¿#"]:
+                pokemon_name.append("Eternatus " + pokedex[index + 1]["Name"])
+
+            elif ("Urshifu (Single Strike Style)") in i["ï»¿#"]:
+                pokemon_name.append("Urshifu " + pokedex[index + 1]["Name"])
+
+            elif ("Urshifu (Rapid Strike Style)") in i["ï»¿#"]:
+                pokemon_name.append("Urshifu " + pokedex[index + 1]["Name"])
+
+            elif ("Calyrex (Ice Rider)") in i["ï»¿#"]:
+                pokemon_name.append("Calyrex " + pokedex[index + 1]["Name"])
+
+            elif ("Calyrex (Shadow Rider)") in i["ï»¿#"]:
+                pokemon_name.append("Calyrex " + pokedex[index + 1]["Name"])
+
+            elif ("Enamorus (Incarnate Forme)") in i["ï»¿#"]:
+                pokemon_name.append("Enamorus " + pokedex[index + 1]["Name"])
+
+            elif ("Enamorus (Therian Forme)") in i["ï»¿#"]:
+                pokemon_name.append("Enamorus " + pokedex[index + 1]["Name"])
+            #Pokemon parsing end
             
 
             else:
