@@ -6,6 +6,7 @@ with open("pokedex.csv", newline="") as pokedex_csv:
   for row in pokedex_reader:
     pokedex.append(row)
 
+#returns a list of pokemon names
 def get_all_pokemon_name():
         pokemon_name = []
         index = 0
@@ -14,6 +15,7 @@ def get_all_pokemon_name():
             if i["ï»¿#"] == "":
                 pass
             
+            #if forme name is usable as pokemon name: start
             elif i["ï»¿#"].startswith("Mega "):
                 pokemon_name.append(pokedex[index + 1]["Name"])
 
@@ -79,7 +81,9 @@ def get_all_pokemon_name():
 
             elif ("(Ultra Necrozma)") in i["ï»¿#"]:
                 pokemon_name.append(pokedex[index + 1]["Name"])
+            #if forme name is usable as pokemon name: end
 
+            #if forme name is NOT usable as pokemon name: start
             elif ("Sunny ") in i["ï»¿#"]:
                 pokemon_name.append("Castform " + pokedex[index + 1]["Name"])
             
@@ -304,14 +308,16 @@ def get_all_pokemon_name():
 
             elif ("Enamorus (Therian Forme)") in i["ï»¿#"]:
                 pokemon_name.append("Enamorus " + pokedex[index + 1]["Name"])
+            #if forme name is NOT usable as pokemon name: end
+
             #Pokemon parsing end
             
-
             else:
                 pokemon_name.append(i["Name"])
             index += 1
         return pokemon_name
 
+#returns a list of pokemon names mapped to their respective type
 def get_all_pokemon_name_and_type():
         all_pokemon_names_and_type = {x: None for x in get_all_pokemon_name()}
         index = 0
@@ -325,5 +331,60 @@ def get_all_pokemon_name_and_type():
                     index += 1
             index += 1
         return all_pokemon_names_and_type
+
+#returns a list of pokemon names mapped to their respective stats
+def get_all_pokemon_name_and_stats():
+        all_pokemon_names_and_stats = {x: {} for x in get_all_pokemon_name()}
+        index = 0
+        for i in all_pokemon_names_and_stats:
+            all_pokemon_names_and_stats[i]["Total"] = (pokedex[index]["Total"])
+            all_pokemon_names_and_stats[i]["HP"] = (pokedex[index]["HP"])
+            all_pokemon_names_and_stats[i]["Attack"] = (pokedex[index]["Attack"])
+            all_pokemon_names_and_stats[i]["Defense"] = (pokedex[index]["Defense"])
+            all_pokemon_names_and_stats[i]["Sp. Atk"] = (pokedex[index]["Sp. Atk"])
+            all_pokemon_names_and_stats[i]["Sp. Def"] = (pokedex[index]["Sp. Def"])
+            all_pokemon_names_and_stats[i]["Speed"] = (pokedex[index]["Speed"])
+            if pokedex[index+1]["ï»¿#"] == "":
+                if pokedex[index+1]["Total"] != "":
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Total"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["HP"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Attack"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Defense"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Sp. Atk"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Sp. Def"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Speed"])
+                    index += 1
+                else:
+                    index += 1
+            index += 1
+        return all_pokemon_names_and_stats
+
+#returns a list of pokemon names mapped to their respective type and stats
+def get_all_pokemon_name_type_stats():
+        all_pokemon_names_and_stats = {x: {} for x in get_all_pokemon_name()}
+        index = 0
+        for i in all_pokemon_names_and_stats:
+            all_pokemon_names_and_stats[i]["Type"] = get_all_pokemon_name_and_type()[i]
+            all_pokemon_names_and_stats[i]["Total"] = (pokedex[index]["Total"])
+            all_pokemon_names_and_stats[i]["HP"] = (pokedex[index]["HP"])
+            all_pokemon_names_and_stats[i]["Attack"] = (pokedex[index]["Attack"])
+            all_pokemon_names_and_stats[i]["Defense"] = (pokedex[index]["Defense"])
+            all_pokemon_names_and_stats[i]["Sp. Atk"] = (pokedex[index]["Sp. Atk"])
+            all_pokemon_names_and_stats[i]["Sp. Def"] = (pokedex[index]["Sp. Def"])
+            all_pokemon_names_and_stats[i]["Speed"] = (pokedex[index]["Speed"])
+            if pokedex[index+1]["ï»¿#"] == "":
+                if pokedex[index+1]["Total"] != "":
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Total"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["HP"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Attack"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Defense"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Sp. Atk"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Sp. Def"])
+                    all_pokemon_names_and_stats[i].append(pokedex[index + 1]["Speed"])
+                    index += 1
+                else:
+                    index += 1
+            index += 1
+        return all_pokemon_names_and_stats
             
 
