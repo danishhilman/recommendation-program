@@ -361,30 +361,11 @@ def get_all_pokemon_name_and_stats():
 
 #returns a list of pokemon names mapped to their respective type and stats
 def get_all_pokemon_name_type_stats():
-        all_pokemon_names_and_stats = {x: {} for x in get_all_pokemon_name()}
-        index = 0
-        for i in all_pokemon_names_and_stats:
-            all_pokemon_names_and_stats[i]["Type"] = get_all_pokemon_name_and_type()[i]
-            all_pokemon_names_and_stats[i]["Total"] = int(pokedex[index]["Total"])
-            all_pokemon_names_and_stats[i]["HP"] = int(pokedex[index]["HP"])
-            all_pokemon_names_and_stats[i]["Attack"] = int(pokedex[index]["Attack"])
-            all_pokemon_names_and_stats[i]["Defense"] = int(pokedex[index]["Defense"])
-            all_pokemon_names_and_stats[i]["Sp. Atk"] = int(pokedex[index]["Sp. Atk"])
-            all_pokemon_names_and_stats[i]["Sp. Def"] = int(pokedex[index]["Sp. Def"])
-            all_pokemon_names_and_stats[i]["Speed"] = int(pokedex[index]["Speed"])
-            if pokedex[index+1]["ï»¿#"] == "":
-                if pokedex[index+1]["Total"] != "":
-                    all_pokemon_names_and_stats[i].append(int(pokedex[index + 1]["Total"]))
-                    all_pokemon_names_and_stats[i].append(int(pokedex[index + 1]["HP"]))
-                    all_pokemon_names_and_stats[i].append(int(pokedex[index + 1]["Attack"]))
-                    all_pokemon_names_and_stats[i].append(int(pokedex[index + 1]["Defense"]))
-                    all_pokemon_names_and_stats[i].append(int(pokedex[index + 1]["Sp. Atk"]))
-                    all_pokemon_names_and_stats[i].append(int(pokedex[index + 1]["Sp. Def"]))
-                    all_pokemon_names_and_stats[i].append(int(pokedex[index + 1]["Speed"]))
-                    index += 1
-                else:
-                    index += 1
-            index += 1
-        return all_pokemon_names_and_stats
+        all_pokemon_names_stats_and_type = {x: {} for x in get_all_pokemon_name()}
+        for i in all_pokemon_names_stats_and_type:
+            all_pokemon_names_stats_and_type[i]["Type"] = get_all_pokemon_name_and_type()[i]
+            all_pokemon_names_stats_and_type[i]["Stats"] = get_all_pokemon_name_and_stats()[i]
+
+        return all_pokemon_names_stats_and_type
             
 
