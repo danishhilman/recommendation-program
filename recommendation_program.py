@@ -13,7 +13,8 @@ class Interface:
 
     def __init__(self):
         self.current_menu = MenuDisplay()
-        
+    
+    #prints logo
     def logo(self):
         print(""" .----------------. .----------------. .----------------. .----------------. .----------------. .----------------. .----------------. 
 | .--------------. | .--------------. | .--------------. | .--------------. | .--------------. | .--------------. | .--------------. |
@@ -26,7 +27,8 @@ class Interface:
 | |              | | |              | | |              | | |              | | |              | | |              | | |              | |
 | '--------------' | '--------------' | '--------------' | '--------------' | '--------------' | '--------------' | '--------------' |
  '----------------' '----------------' '----------------' '----------------' '----------------' '----------------' '----------------' """)
-
+    
+    #prints a text encapsulated in a box
     def text_box(self, text):
         print(" ", end="")
         for i in range(len(text)+2):
@@ -49,6 +51,7 @@ class Interface:
         else:
             print("|")
 
+    #prompts the user for a choice; returns choice
     def prompt_choice(self, text=None, str=False):
         self.text_box(text)
         print("\n", "= ", end="")
@@ -63,17 +66,15 @@ class Interface:
 
         return Interface.choice
 
-    def error_message(self, int_error=False, option_error=False, pokemon_type_error=False):
+    #prints error message
+    def error_message(self, int_error=False, option_error=False):
 
         if int_error == True:
-            self.text_box("INPUT MUST BE A NUMBER")
+            Interface.text_box(Interface, "INPUT MUST BE A NUMBER")
             
         elif option_error == True:
             Interface.text_box(Interface, "OPTION NOT AVAILABLE")
         
-        elif pokemon_type_error == True:
-            self.text_box("TYPE DOES NOT EXIST")
-    
     #prints all pokemon mapped to their respective type and stats
     def display_pokemon_list(self, pokemon_list=pokedex):
         print("")
@@ -111,6 +112,7 @@ class Interface:
                 sorted_pokemon[i] = {"Type":pokemon_list[i]["Type"], "Stats":pokemon_list[i]["Stats"]}
         return sorted_pokemon
 
+    #checks if a pokemon type exist
     def if_pokemon_type_exist(self, input):
         if input in Interface.pokemon_types: 
             return True
@@ -138,6 +140,7 @@ class Interface:
         sorted_pokemon = dict(sorted(sorted_pokemon.items(), key=lambda item: item[1]["Stats"][stat_type]))
         return sorted_pokemon
     
+    #checks if a pokemon stats type exist
     def if_pokemon_stats_type_exist(self, input):
         if input in Interface.pokemon_stats_types:
             return True
@@ -145,7 +148,7 @@ class Interface:
             return False
        
        
-#First Menu/Page
+#Prompts the option to display all pokemons or all pokemons by starting letter
 class MenuDisplay(Interface):
 
     def __init__(self):
@@ -167,6 +170,7 @@ class MenuDisplay(Interface):
         Interface.pokemons = self.pokemon_by_starting_letter(Interface.choice)
         self.display_pokemon_list(pokemon_list=Interface.pokemons)
 
+#Prompts the option to select sorting criteria
 class MenuSortSelect(Interface):
 
     def __init__(self):
@@ -175,19 +179,19 @@ class MenuSortSelect(Interface):
     def prompt_choice(self):
         if Interface.sorted_by_type == True and Interface.sorted_by_stats == True:
             Interface.next_menu = MenuDisplay()
-            interface.current_menu = Interface.next_menu
+            user_interface.current_menu = Interface.next_menu
 
         elif Interface.sorted_by_type == True and Interface.sorted_by_stats == False:
             super().prompt_choice("ENTER '1' TO SORT BY STATS, ENTER '2' TO CLEAR LIST")
             if Interface.choice == 1:
                 Interface.choice = None
                 Interface.next_menu = MenuStatTypeSelect()
-                interface.current_menu = Interface.next_menu
+                user_interface.current_menu = Interface.next_menu
             
             elif Interface.choice == 2:
                 Interface.choice = None
                 Interface.next_menu = MenuDisplay()
-                interface.current_menu = Interface.next_menu
+                user_interface.current_menu = Interface.next_menu
             
             else:
                 pass
@@ -197,12 +201,12 @@ class MenuSortSelect(Interface):
             if Interface.choice == 1:
                 Interface.choice = None
                 Interface.next_menu = MenuTypeSelect()
-                interface.current_menu = Interface.next_menu
+                user_interface.current_menu = Interface.next_menu
 
             elif Interface.choice == 2:
                 Interface.choice = None
                 Interface.next_menu = MenuDisplay()
-                interface.current_menu = Interface.next_menu
+                user_interface.current_menu = Interface.next_menu
 
             else:
                 pass
@@ -215,59 +219,63 @@ class MenuSortSelect(Interface):
     def option_2(self):
         Interface.next_menu = MenuStatTypeSelect()
 
-class MenuStatTypeSelect(Interface):
+#Prompts the option to select pokemon stats type
+class MenuStatTypeSelect(MenuSortSelect):
     stat_type = None
     def prompt_choice(self):
         Interface.sorted_by_stats = True
-        MenuStatTypeSelect.stat_type = super().prompt_choice("ENTER STAT TYPE", str=True)
+        MenuStatTypeSelect.stat_type = Interface.prompt_choice(self, "ENTER STAT TYPE", str=True)
         if self.if_pokemon_stats_type_exist(MenuStatTypeSelect.stat_type.title()):
             Interface.next_menu = MenuStatValueSelect()
-            interface.current_menu = Interface.next_menu
+            user_interface.current_menu = Interface.next_menu
         else:
             self.text_box("STAT TYPE DOES NOT EXIST")
 
-class MenuStatValueSelect(Interface):
+#Prompts the option to enter pokemon stats value
+class MenuStatValueSelect(MenuStatTypeSelect):
     stat_value = None
     def prompt_choice(self):
         Interface.retrieving_pokemon_stats_value = True
-        MenuStatValueSelect.stat_value = super().prompt_choice("ENTER STAT VALUE")
+        MenuStatValueSelect.stat_value = Interface.prompt_choice(self, "ENTER STAT VALUE")
         if type(MenuStatValueSelect.stat_value) == int:
             Interface.choice = None
             Interface.retrieving_pokemon_stats_value = False
             Interface.next_menu = MenuStatSort()
-            interface.current_menu = Interface.next_menu
+            user_interface.current_menu = Interface.next_menu
         else:
             pass
 
-class MenuStatSort(Interface):
+#Prompt the option to select sorting condition; prints a list of pokemon with the specified stats type, stats value and sorting condition
+class MenuStatSort(MenuStatValueSelect):
 
     def prompt_choice(self):
-        self.sort_condition = super().prompt_choice("ENTER '1' TO SORT BY MINIMUM STAT VALUE, ENTER '2' TO SORT BY MAXIMUM STAT VALUE, ENTER '3' TO SORT BY SPECIFIC STAT VALUE")
+        self.sort_condition = Interface.prompt_choice(self, "ENTER '1' TO SORT BY MINIMUM STAT VALUE, ENTER '2' TO SORT BY MAXIMUM STAT VALUE, ENTER '3' TO SORT BY SPECIFIC STAT VALUE")
         
         if self.sort_condition == 1:
             Interface.pokemons = self.pokemon_with_stats(MenuStatTypeSelect.stat_type, MenuStatValueSelect.stat_value, min=True, pokemon_list=Interface.pokemons)
             self.display_pokemon_list(pokemon_list=Interface.pokemons)
             Interface.choice = None
             Interface.next_menu = MenuSortSelect()
-            interface.current_menu = Interface.next_menu
+            user_interface.current_menu = Interface.next_menu
 
         elif self.sort_condition == 2:
             Interface.pokemons = self.pokemon_with_stats(MenuStatTypeSelect.stat_type, MenuStatValueSelect.stat_value, max=True, pokemon_list=Interface.pokemons)
             self.display_pokemon_list(pokemon_list=Interface.pokemons)
             Interface.choice = None
             Interface.next_menu = MenuSortSelect()
-            interface.current_menu = Interface.next_menu
+            user_interface.current_menu = Interface.next_menu
 
         elif self.sort_condition == 3:
             Interface.pokemons = self.pokemon_with_stats(MenuStatTypeSelect.stat_type, MenuStatValueSelect.stat_value, pokemon_list=Interface.pokemons)
             self.display_pokemon_list(pokemon_list=Interface.pokemons)
             Interface.choice = None
             Interface.next_menu = MenuSortSelect()
-            interface.current_menu = Interface.next_menu
+            user_interface.current_menu = Interface.next_menu
 
         else:
             pass
 
+#Prompts the option to select pokemon type sorting criteria
 class MenuTypeSelect(MenuSortSelect):
     sort_selection = None
 
@@ -285,6 +293,7 @@ class MenuTypeSelect(MenuSortSelect):
         MenuTypeSelect.sort_selection = 'sort by only type'
         Interface.next_menu = MenuTypeSort()
 
+#Prompts the option to select to sort between 1 type or 2 types
 class MenuSortAnyTypeSelect(MenuTypeSelect):
 
     def prompt_choice(self):
@@ -298,36 +307,37 @@ class MenuSortAnyTypeSelect(MenuTypeSelect):
         MenuTypeSelect.sort_selection = 'sort by two types'
         Interface.next_menu = MenuTypeSort()
 
-class MenuTypeSort(Interface):
+#Prompts the option to enter pokemon types/type, depending on the sorting criteria; prints a sorted pokemon list
+class MenuTypeSort(MenuTypeSelect):
 
     def prompt_choice(self):
         if MenuTypeSelect.sort_selection == 'sort by one type':
             pokemon_type = []
-            super().prompt_choice("ENTER TYPE", str=True)
+            Interface.prompt_choice(self, "ENTER TYPE", str=True)
             if self.if_pokemon_type_exist(Interface.choice.title()):
                 pokemon_type.append(Interface.choice)
                 Interface.pokemons = self.pokemon_with_type(pokemon_type, pokemon_list=Interface.pokemons)
                 self.display_pokemon_list(pokemon_list=Interface.pokemons)
                 Interface.next_menu = MenuSortSelect()
-                interface.current_menu = Interface.next_menu
+                user_interface.current_menu = Interface.next_menu
             else:
                 self.text_box("TYPE DOES NOT EXIST")
 
         if MenuTypeSelect.sort_selection == 'sort by two types':
             second_type_valid = False
             pokemon_type = []
-            super().prompt_choice("ENTER TYPE", str=True)
+            Interface.prompt_choice(self, "ENTER TYPE", str=True)
             if self.if_pokemon_type_exist(Interface.choice.title()):
                 pokemon_type.append(Interface.choice)
                 while second_type_valid == False:
-                    super().prompt_choice("ENTER SECOND TYPE", str=True)
+                    Interface.prompt_choice(self, "ENTER SECOND TYPE", str=True)
                     if self.if_pokemon_type_exist(Interface.choice.title()):
                         second_type_valid = True
                         pokemon_type.append(Interface.choice)
                         Interface.pokemons = self.pokemon_with_type(pokemon_type, pokemon_list=Interface.pokemons)
                         self.display_pokemon_list(pokemon_list=Interface.pokemons)
                         Interface.next_menu = MenuSortSelect()
-                        interface.current_menu = Interface.next_menu
+                        user_interface.current_menu = Interface.next_menu
                     else:
                         self.text_box("TYPE DOES NOT EXIST")
             else:
@@ -335,33 +345,33 @@ class MenuTypeSort(Interface):
 
         if MenuTypeSelect.sort_selection == 'sort by only type':
             pokemon_type = []
-            super().prompt_choice("ENTER TYPE", str=True)
+            Interface.prompt_choice(self, "ENTER TYPE", str=True)
             if self.if_pokemon_type_exist(Interface.choice.title()):
                 pokemon_type.append(Interface.choice)
                 Interface.pokemons = self.pokemon_with_type(pokemon_type, only_type=True, pokemon_list=Interface.pokemons)
                 self.display_pokemon_list(pokemon_list=Interface.pokemons)
                 Interface.next_menu = MenuSortSelect()
-                interface.current_menu = Interface.next_menu
+                user_interface.current_menu = Interface.next_menu
             else:
                 self.text_box("TYPE DOES NOT EXIST")
 
 #Instantiate
-interface = Interface()
-interface.logo()
+user_interface = Interface()
+user_interface.logo()
 
 #Interface Start
 while True:
 
-    interface.current_menu.prompt_choice()
+    user_interface.current_menu.prompt_choice()
 
     if Interface.choice == 1:
-        interface.current_menu.option_1()
-        interface.current_menu = Interface.next_menu
+        user_interface.current_menu.option_1()
+        user_interface.current_menu = Interface.next_menu
         Interface.choice = None
     
     elif Interface.choice == 2:
-        interface.current_menu.option_2()
-        interface.current_menu = Interface.next_menu
+        user_interface.current_menu.option_2()
+        user_interface.current_menu = Interface.next_menu
         Interface.choice = None
 
     else:
