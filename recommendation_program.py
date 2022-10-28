@@ -224,12 +224,20 @@ class MenuStatTypeSelect(MenuSortSelect):
     stat_type = None
     def prompt_choice(self):
         Interface.sorted_by_stats = True
-        MenuStatTypeSelect.stat_type = Interface.prompt_choice(self, "ENTER STAT TYPE", str=True)
-        if self.if_pokemon_stats_type_exist(MenuStatTypeSelect.stat_type.title()):
-            Interface.next_menu = MenuStatValueSelect()
-            user_interface.current_menu = Interface.next_menu
+        Interface.prompt_choice(self, "ENTER '1' TO SELECT STAT TYPE, ENTER '2' TO SEE ALL STAT TYPES")
+        if Interface.choice == 1:
+            MenuStatTypeSelect.stat_type = Interface.prompt_choice(self, "ENTER STAT TYPE", str=True)
+            if self.if_pokemon_stats_type_exist(MenuStatTypeSelect.stat_type.title()):
+                Interface.next_menu = MenuStatValueSelect()
+                user_interface.current_menu = Interface.next_menu
+            else:
+                self.text_box("STAT TYPE DOES NOT EXIST")
+        elif Interface.choice == 2:
+            print("")
+            for i in Interface.pokemon_stats_types:
+                print(i)
         else:
-            self.text_box("STAT TYPE DOES NOT EXIST")
+            pass
 
 #Prompts the option to enter pokemon stats value
 class MenuStatValueSelect(MenuStatTypeSelect):
@@ -284,7 +292,7 @@ class MenuTypeSelect(MenuSortSelect):
 
     def prompt_choice(self):
         Interface.sorted_by_type = True
-        Interface.prompt_choice(self, "ENTER '1' TO SORT ALL POKEMON WITH THE SPECIFIED TYPE, ENTER '2' TO SORT ALL POKEMON WITH ONLY THE SPECIFIED TYPE")
+        Interface.prompt_choice(self, "ENTER '1' TO SORT ALL POKEMON WITH THE SPECIFIED TYPE, ENTER '2' TO SORT ALL POKEMON WITH ONLY THE SPECIFIED TYPE, ENTER '3' TO SEE ALL POKEMON TYPES")
 
     def option_1(self):
         Interface.next_menu = MenuSortAnyTypeSelect()
@@ -293,11 +301,16 @@ class MenuTypeSelect(MenuSortSelect):
         MenuTypeSelect.sort_selection = 'sort by only type'
         Interface.next_menu = MenuTypeSort()
 
+    def option_3(self):
+        print("")
+        for i in Interface.pokemon_types:
+            print(i)
+
 #Prompts the option to select to sort between 1 type or 2 types
 class MenuSortAnyTypeSelect(MenuTypeSelect):
 
     def prompt_choice(self):
-        Interface.prompt_choice(self, "ENTER '1' TO SORT BY ONE TYPE, ENTER '2' TO SORT BY TWO TYPES")
+        Interface.prompt_choice(self, "ENTER '1' TO SORT BY ONE TYPE, ENTER '2' TO SORT BY TWO TYPES, ENTER '3' TO SEE ALL POKEMON TYPES")
 
     def option_1(self):
         MenuTypeSelect.sort_selection = 'sort by one type'
@@ -364,21 +377,29 @@ while True:
 
     user_interface.current_menu.prompt_choice()
 
-    if Interface.choice == 1:
-        user_interface.current_menu.option_1()
-        user_interface.current_menu = Interface.next_menu
-        Interface.choice = None
-    
-    elif Interface.choice == 2:
-        user_interface.current_menu.option_2()
-        user_interface.current_menu = Interface.next_menu
-        Interface.choice = None
+    try:
+        if Interface.choice == 1:
+            user_interface.current_menu.option_1()
+            user_interface.current_menu = Interface.next_menu
+            Interface.choice = None
+        
+        elif Interface.choice == 2:
+            user_interface.current_menu.option_2()
+            user_interface.current_menu = Interface.next_menu
+            Interface.choice = None
 
-    else:
-        if type(Interface.choice) == int:
+        elif Interface.choice == 3:
+            user_interface.current_menu.option_3()
+            user_interface.current_menu = Interface.next_menu
+            Interface.choice = None
 
-            if Interface.retrieving_pokemon_stats_value == True:
-                pass
-            
-            else:
-                Interface.error_message(Interface, option_error=True)
+        else:
+            if type(Interface.choice) == int:
+
+                if Interface.retrieving_pokemon_stats_value == True:
+                    pass
+                
+                else:
+                    Interface.error_message(Interface, option_error=True)
+    except:
+        Interface.error_message(Interface, option_error=True)
