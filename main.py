@@ -542,7 +542,7 @@ class MenuTypeSort(Interface):
 user_interface = Interface()
 user_interface.logo()
 
-#Start
+#Interface Start
 while True:
 
     user_interface.current_menu.prompt_choice()
