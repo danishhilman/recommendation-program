@@ -5,8 +5,8 @@ class Interface:
     next_menu = None
     choice = None
     pokemons = None
-    pokemon_types = ["Normal", "Fire", "Water", "Grass", "Electric", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dark", "Dragon", "Steel", "Fairy"]
-    pokemon_stats_types = ["Total", "Hp", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed"]
+    pokemon_types = ["normal", "fire", "water", "grass", "electric", "ice", "fighting", "poison", "ground", "flying", "psychic", "bug", "rock", "ghost", "dark", "dragon", "steel", "fairy"]
+    pokemon_stats_types = ["total", "hp", "attack", "defense", "sp. atk", "sp. def", "speed"]
     retrieving_pokemon_stats_value = False
     sorted_by_type = False
     sorted_by_stats = False
@@ -115,12 +115,86 @@ class Interface:
         return sorted_pokemon
 
     #checks if a pokemon type exist
-    def if_pokemon_type_exist(self, input):
-        if input in Interface.pokemon_types: 
+    def if_pokemon_type_exist(self, input_text):
+        if input_text.lower() in Interface.pokemon_types: 
             return True
         else:
             return False
 
+
+    #checks if input is relatively close to a data from a given list; returns the data relatively closest to the input
+    def if_text_close_to_pokemon_type(self, input_text, from_list):
+        index = 0
+        match_count = 0
+        index_2 = 0
+        match_count_2 = 0
+        index_3 = 0
+        letter_index = 0
+        match_count_3 = 0
+        for types in from_list:
+            for letter in types:
+
+                if letter == input_text[index]:
+                    match_count += 1
+                    if index+1 < len(input_text):
+                        index += 1
+                
+                if letter == input_text[index_2]:
+                    match_count_2 += 1
+                    if index_2+1 < len(input_text):
+                        index_2 += 1
+                else:
+                    if index_2+1 < len(input_text):
+                        index_2 += 1
+
+                if types[letter_index] == input_text[index_3]:
+                    match_count_3 += 1
+                    if index_3+1 < len(input_text):
+                        index_3 += 1
+                    if letter_index+1 < len(types):
+                        letter_index += 1
+                else:
+                    if index_3+1 < len(input_text):
+                        index_3 += 1
+
+                if match_count >= len(types) * 0.6:
+                    self.text_box(f"DID YOU MEAN {types.upper()}?")
+                    Interface.choice = types
+                    return types
+
+                elif match_count_2 >= len(types) * 0.6:
+                    self.text_box(f"DID YOU MEAN {types.upper()}?")
+                    Interface.choice = types
+                    return types
+
+                elif match_count_3 >= len(types) * 0.6:
+                    self.text_box(f"DID YOU MEAN {types.upper()}?")
+                    Interface.choice = types
+                    return types
+
+            index = 0
+            match_count = 0
+            index_2 = 0
+            match_count_2 = 0
+            index_3 = 0
+            letter_index = 0
+            match_count_3 = 0
+
+        return False
+
+    #if input is relatively close to any of the data from the given list returns the relatively closest data from the list
+    def auto_complete(self, input_text, from_list):
+        for types in from_list:
+            if types.startswith(input_text.lower()):
+                self.text_box(f"DID YOU MEAN {types.upper()}?")
+                Interface.choice = types
+                return types
+            
+            elif self.if_text_close_to_pokemon_type(input_text, from_list) != False:
+                break
+        else:
+            return False
+                
     #returns a dictionary of all the pokemon with a specified stats category with a maximum value, minimum value or specific value
     def pokemon_with_stats(self, stat_type, val, min=False, max=False, pokemon_list=pokedex):
 
@@ -143,12 +217,11 @@ class Interface:
         return sorted_pokemon
     
     #checks if a pokemon stats type exist
-    def if_pokemon_stats_type_exist(self, input):
-        if input in Interface.pokemon_stats_types:
+    def if_pokemon_stats_type_exist(self, text_input):
+        if text_input.lower() in Interface.pokemon_stats_types:
             return True
         else:
             return False
-       
        
 #Prompts the option to display all pokemons or all pokemons by starting letter
 class MenuDisplay(Interface):
@@ -230,9 +303,22 @@ class MenuStatTypeSelect(Interface):
         super().prompt_choice("ENTER '1' TO SELECT STAT TYPE, ENTER '2' TO SEE ALL STAT TYPES")
         if Interface.choice == 1:
             MenuStatTypeSelect.stat_type = super().prompt_choice("ENTER STAT TYPE", str=True)
-            if self.if_pokemon_stats_type_exist(MenuStatTypeSelect.stat_type.title()):
+            if self.if_pokemon_stats_type_exist(MenuStatTypeSelect.stat_type):
                 Interface.next_menu = MenuStatValueSelect()
                 user_interface.current_menu = Interface.next_menu
+
+            elif self.auto_complete(Interface.choice, Interface.pokemon_stats_types) != False:
+                selected_type = Interface.choice
+                super().prompt_choice("YES: ENTER '1', NO: ENTER '2'")
+                if Interface.choice == 1:
+                    Interface.choice = None
+                    MenuStatTypeSelect.stat_type = selected_type
+                    Interface.next_menu = MenuStatValueSelect()
+                    user_interface.current_menu = Interface.next_menu
+
+                elif Interface.choice == 2:
+                    Interface.choice = None
+
             else:
                 self.text_box("STAT TYPE DOES NOT EXIST")
 
@@ -240,7 +326,7 @@ class MenuStatTypeSelect(Interface):
             Interface.choice = None
             print("")
             for i in Interface.pokemon_stats_types:
-                print(i)
+                print(i.title())
 
         else:
             pass
@@ -317,7 +403,7 @@ class MenuTypeSelect(Interface):
     def option_3(self):
         print("")
         for i in Interface.pokemon_types:
-            print(i)
+            print(i.title())
 
 #Prompts the option to select to sort between 1 type or 2 types
 class MenuSortAnyTypeSelect(MenuTypeSelect):
@@ -343,12 +429,27 @@ class MenuTypeSort(Interface):
         if MenuTypeSelect.sort_selection == 'sort by one type':
             pokemon_type = []
             super().prompt_choice("ENTER TYPE", str=True)
-            if self.if_pokemon_type_exist(Interface.choice.title()):
+            if self.if_pokemon_type_exist(Interface.choice):
                 pokemon_type.append(Interface.choice)
                 Interface.pokemons = self.pokemon_with_type(pokemon_type, pokemon_list=Interface.pokemons)
                 self.display_pokemon_list(pokemon_list=Interface.pokemons)
                 Interface.next_menu = MenuSortSelect()
                 user_interface.current_menu = Interface.next_menu
+
+            elif self.auto_complete(Interface.choice, Interface.pokemon_types) != False:
+                selected_type = Interface.choice
+                super().prompt_choice("YES: ENTER '1', NO: ENTER '2'")
+                if Interface.choice == 1:
+                    Interface.choice = None
+                    pokemon_type.append(selected_type)
+                    Interface.pokemons = self.pokemon_with_type(pokemon_type, pokemon_list=Interface.pokemons)
+                    self.display_pokemon_list(pokemon_list=Interface.pokemons)
+                    Interface.next_menu = MenuSortSelect()
+                    user_interface.current_menu = Interface.next_menu
+
+                elif Interface.choice == 2:
+                    Interface.choice = None
+
             else:
                 self.text_box("TYPE DOES NOT EXIST")
 
@@ -356,11 +457,11 @@ class MenuTypeSort(Interface):
             second_type_valid = False
             pokemon_type = []
             super().prompt_choice("ENTER TYPE", str=True)
-            if self.if_pokemon_type_exist(Interface.choice.title()):
+            if self.if_pokemon_type_exist(Interface.choice):
                 pokemon_type.append(Interface.choice)
                 while second_type_valid == False:
                     super().prompt_choice("ENTER SECOND TYPE", str=True)
-                    if self.if_pokemon_type_exist(Interface.choice.title()):
+                    if self.if_pokemon_type_exist(Interface.choice):
                         second_type_valid = True
                         pokemon_type.append(Interface.choice)
                         Interface.pokemons = self.pokemon_with_type(pokemon_type, pokemon_list=Interface.pokemons)
@@ -369,18 +470,71 @@ class MenuTypeSort(Interface):
                         user_interface.current_menu = Interface.next_menu
                     else:
                         self.text_box("TYPE DOES NOT EXIST")
+
+            elif self.auto_complete(Interface.choice, Interface.pokemon_types) != False:
+                selected_type = Interface.choice
+                super().prompt_choice("YES: ENTER '1', NO: ENTER '2'")
+                if Interface.choice == 1:
+                    Interface.choice = None
+                    pokemon_type.append(selected_type)
+                    while second_type_valid == False:
+                        super().prompt_choice("ENTER SECOND TYPE", str=True)
+                        if self.if_pokemon_type_exist(Interface.choice):
+                            second_type_valid = True
+                            pokemon_type.append(Interface.choice)
+                            Interface.pokemons = self.pokemon_with_type(pokemon_type, pokemon_list=Interface.pokemons)
+                            self.display_pokemon_list(pokemon_list=Interface.pokemons)
+                            Interface.next_menu = MenuSortSelect()
+                            user_interface.current_menu = Interface.next_menu
+
+                        elif self.auto_complete(Interface.choice, Interface.pokemon_types) != False:
+                            selected_type = Interface.choice
+                            super().prompt_choice("YES: ENTER '1', NO: ENTER '2'")
+                            if Interface.choice == 1:
+                                second_type_valid = True
+                                Interface.choice = None
+                                pokemon_type.append(selected_type)
+                                Interface.pokemons = self.pokemon_with_type(pokemon_type, pokemon_list=Interface.pokemons)
+                                self.display_pokemon_list(pokemon_list=Interface.pokemons)
+                                Interface.next_menu = MenuSortSelect()
+                                user_interface.current_menu = Interface.next_menu
+
+                            elif Interface.choice == 2:
+                                Interface.choice = None
+
+                        else:
+                            self.text_box("TYPE DOES NOT EXIST")
+
+                elif Interface.choice == 2:
+                    Interface.choice = None
+
             else:
                 self.text_box("TYPE DOES NOT EXIST")
 
         if MenuTypeSelect.sort_selection == 'sort by only type':
             pokemon_type = []
             super().prompt_choice("ENTER TYPE", str=True)
-            if self.if_pokemon_type_exist(Interface.choice.title()):
+            if self.if_pokemon_type_exist(Interface.choice):
                 pokemon_type.append(Interface.choice)
                 Interface.pokemons = self.pokemon_with_type(pokemon_type, only_type=True, pokemon_list=Interface.pokemons)
                 self.display_pokemon_list(pokemon_list=Interface.pokemons)
                 Interface.next_menu = MenuSortSelect()
                 user_interface.current_menu = Interface.next_menu
+
+            elif self.auto_complete(Interface.choice, Interface.pokemon_types) != False:
+                selected_type = Interface.choice
+                super().prompt_choice("YES: ENTER '1', NO: ENTER '2'")
+                if Interface.choice == 1:
+                    Interface.choice = None
+                    pokemon_type.append(selected_type)
+                    Interface.pokemons = self.pokemon_with_type(pokemon_type, only_type=True, pokemon_list=Interface.pokemons)
+                    self.display_pokemon_list(pokemon_list=Interface.pokemons)
+                    Interface.next_menu = MenuSortSelect()
+                    user_interface.current_menu = Interface.next_menu
+
+                if Interface.choice == 2:
+                    Interface.choice = None
+
             else:
                 self.text_box("TYPE DOES NOT EXIST")
 
