@@ -1,5 +1,6 @@
 from data import pokedex
 
+
 #interface class
 class Interface:
     next_menu = None
@@ -391,7 +392,7 @@ class MenuTypeSelect(Interface):
 
     def prompt_choice(self):
         Interface.sorted_by_type = True
-        super().prompt_choice("ENTER '1' TO SORT ALL POKEMON WITH THE SPECIFIED TYPE, ENTER '2' TO SORT ALL POKEMON WITH ONLY THE SPECIFIED TYPE, ENTER '3' TO SEE ALL POKEMON TYPES")
+        super().prompt_choice("ENTER '1' TO SORT ALL POKEMON WITH A SPECIFIED TYPE, ENTER '2' TO SORT ALL POKEMON WITH ONLY THE SPECIFIED TYPE, ENTER '3' TO SEE ALL POKEMON TYPES")
 
     def option_1(self):
         Interface.next_menu = MenuSortAnyTypeSelect()
